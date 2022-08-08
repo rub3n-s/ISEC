@@ -1,0 +1,73 @@
+____________________________________________________________________________________________________________________
+
+						Ficha 8
+____________________________________________________________________________________________________________________
+
+----------------- 3 --------------------
+select preco_tabela, avg(preco_tabela)
+from livros l, autor a
+where l.codigo_autor = a.codigo_autor and upper(genero) = 'INFORMÁTICA'
+order  by titulo;
+
+
+----------------- 4 --------------------
+select nome
+from livros l1
+where unidades_vendidas > (select * from livros l2 where l1.genero = l2.genero)
+order by genero;
+
+
+----------------- 5 --------------------
+select total_venda/unidades_vendidas
+from livros l, editoras e, vendas v
+where l.codigo_editora = e.codigo_editora and v.codigo_livro = l.codigo_livro;
+
+
+----------------- 6 --------------------
+select l.titulo
+from livros l, clientes c, vendas v
+where l.codigo_livro = v.codigo_livro and v.codigo_cliente = c.codigo_cliente and unidades_vendidas > (select unidades_vendidas from livros l, clientes c, vendas v
+where l.codigo_livro = v.codigo_livro and v.codigo_cliente = c.codigo_cliente and c.morada like '%Lisboa');
+
+
+----------------- 7 --------------------
+select "Total de Livros", "Total de Autores", "Total de Editoras"
+from ;
+
+
+----------------- 8 --------------------
+select a.nome, count(codigo_livro), count(codigo_editora)
+from autores a, editoras e, livros l
+where e.codigo_editora = l.codigo_editora and a.codigo_autor = l.codigo_autor and upper(editora.nome) = 'FCA - EDITORA'
+group by ???;
+
+
+
+
+____________________________________________________________________________________________________________________
+
+						Ficha 9
+____________________________________________________________________________________________________________________
+
+----------------- 3 --------------------
+select a.nome, l.nome, count(codigo_livro)
+from autores a, livros l, editoras e
+where a.codigo_autor = l.codigo_autor and e.codigo_editora = l.codigo_editora and preco_unitario > (select max(preco_unitario) from livros where upper(e.nome) = 'FCA - EDITORA');
+
+
+----------------- 4 --------------------
+select nome, count(codigo_livro), (select count(codigo_livro) from autores a, livros l where l.genero = a.genero_preferido)
+from autores
+order by nome;
+
+
+----------------- 5 --------------------
+select e.nome
+from vendas v, livros l, editoras e
+where v.codigo_livro = l.codigo_livro and e.codigo_livro = l.codigo_livro and unidades_vendidas > (select max(unidades_vendidas) from livros);
+
+
+----------------- 6 --------------------
+select c.nome
+from clientes c, vendas v, livros l
+where c.codigo_cliente = v.codigo_cliente and l.codigo_livro = v.codigo_livro and preco_unitario < (select min(preco_unitario) from livros where upper(genero) = 'INFORMÁTICA');
