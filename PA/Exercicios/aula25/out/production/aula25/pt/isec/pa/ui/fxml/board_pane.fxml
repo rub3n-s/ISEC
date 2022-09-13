@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.layout.Pane?>
+<Pane xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="pt.isec.pa.ui.BoardPane"
+      prefHeight="9999.0" prefWidth="9999.0"
+      fx:id="root">
+
+    <Canvas fx:id="board" width="400" height="400"/>
+
+</Pane>

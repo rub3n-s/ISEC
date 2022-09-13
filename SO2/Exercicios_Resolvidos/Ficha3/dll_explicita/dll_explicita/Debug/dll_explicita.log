@@ -1,0 +1,5 @@
+﻿  ex3.c
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha3\dll_explicita\dll_explicita\ex3.c(29,10): warning C4013: '_setmode' undefined; assuming extern returning int
+ex3.obj : error LNK2019: unresolved external symbol __imp__applyFactor referenced in function _wmain
+ex3.obj : error LNK2019: unresolved external symbol __imp__factor referenced in function _wmain
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha3\dll_explicita\Debug\dll_explicita.exe : fatal error LNK1120: 2 unresolved externals

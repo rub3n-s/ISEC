@@ -1,0 +1,3 @@
+/Users/rubensantos/Desktop/IIA/07 - Ficha 7/CodigoAula_TrepaColinas/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/rubensantos/Desktop/IIA/07 - Ficha 7/CodigoAula_TrepaColinas/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rubensantos/Desktop/IIA/07 - Ficha 7/CodigoAula_TrepaColinas/cmake-build-debug/CMakeFiles/CodigoAula_TrepaColinas.dir

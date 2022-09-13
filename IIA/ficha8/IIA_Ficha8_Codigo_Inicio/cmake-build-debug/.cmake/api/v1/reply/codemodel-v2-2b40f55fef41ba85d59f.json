@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "IIA_Ficha8_Codigo_Inicio",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "IIA_Ficha8_Codigo_Inicio::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-IIA_Ficha8_Codigo_Inicio-Debug-b43f2228b8c1e96ce0cd.json",
+					"name" : "IIA_Ficha8_Codigo_Inicio",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/rubensantos/Desktop/IIA/ficha8/IIA_Ficha8_Codigo_Inicio/cmake-build-debug",
+		"source" : "/Users/rubensantos/Desktop/IIA/ficha8/IIA_Ficha8_Codigo_Inicio"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

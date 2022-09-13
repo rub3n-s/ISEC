@@ -1,0 +1,62 @@
+body {
+    font-style: Georgia;
+    color: #434027;
+}
+
+#TW {
+    border: 5px solid #C7C2A1;
+    background-color: #FCFCF5;
+    text-align: justify;
+    padding: 0 10px;
+}
+
+em {
+    text-decoration: underline;
+}
+
+.box-conteudo {
+    margin: 30px 10px 20px 0;
+    padding: 10px;
+    border: 1px inset #C7C2A1;
+    background-color: #F3F1DC;
+}
+
+div h1 {
+    font-size: 20px;
+    margin: 0;
+}
+
+#teorica li:first-child {
+    font-weight: bold;
+    font-style: italic;
+}
+
+p::first-letter {
+    font-size: 30px;
+}
+
+a:link, a:visited {
+    color: black;
+}
+
+a:hover {
+    background-color: #FF7C35;
+    text-decoration: none;
+}
+
+
+[class|=destaque] {
+    color: red;
+}
+
+a[href^="mailto"] {
+    color: white;
+}
+
+a[href^="mailto"]::before {
+    content: "<";
+}
+
+a[href^="mailto"]::after {
+    content: ">";
+}

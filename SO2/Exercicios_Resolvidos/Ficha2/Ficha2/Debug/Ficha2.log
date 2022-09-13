@@ -1,0 +1,11 @@
+﻿  ex2.c
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha2\ex2.c(31,17): warning C4047: 'function': 'DWORD' differs in levels of indirection from 'void *'
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha2\ex2.c(31,13): warning C4024: 'RegCreateKeyExW': different types for formal and actual parameter 3
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha2\ex2.c(54,15): warning C4133: 'function': incompatible types - from 'DWORD *' to 'const BYTE *'
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha2\ex2.c(69,18): warning C4133: 'function': incompatible types - from 'DWORD *' to 'LPBYTE'
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha2\ex2.c(82,14): warning C4047: 'function': 'LPWSTR' differs in levels of indirection from 'TCHAR (*)[200]'
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha2\ex2.c(82,9): warning C4024: 'RegEnumValueW': different types for formal and actual parameter 3
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha2\ex2.c(11,41): warning C4101: 'par_valor': unreferenced local variable
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha2\ex2.c(11,9): warning C4101: 'chave_nome': unreferenced local variable
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha2\ex2.c(11,26): warning C4101: 'par_nome': unreferenced local variable
+  Ficha2.vcxproj -> C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha2\Debug\Ficha2.exe

@@ -1,0 +1,30 @@
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="TPOO2021/Comando.cpp">
+    <Files>
+      <File FileName="TPOO2021/main.cpp" Line="8" Column="17" />
+      <File FileName="TPOO2021/Comando.h" Line="23" Column="22" />
+      <File FileName="TPOO2021/Comando.cpp" Line="90" Column="35" />
+      <File FileName="TPOO2021/Mundo.cpp" Line="142" Column="1" />
+      <File FileName="TPOO2021/Mundo.h" Line="12" Column="2" />
+      <File FileName="TPOO2021/Territorio.h" Line="17" Column="96" />
+      <File FileName="TPOO2021/Territorio.cpp" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="TPOO2021" expanded="True">
+            <Node name="TPOO2021" expanded="True">
+              <Node name="Comando.cpp" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x64" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+</Properties>

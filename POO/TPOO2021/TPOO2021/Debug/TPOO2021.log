@@ -1,0 +1,5 @@
+﻿  Comando.cpp
+C:\Users\T.F\Desktop\2ANO\POO\ExerciciosVS\TPOO2021\TPOO2021\Comando.cpp(27,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\T.F\Desktop\2ANO\POO\ExerciciosVS\TPOO2021\TPOO2021\Comando.cpp(38,20): warning C4018: '<': signed/unsigned mismatch
+C:\Users\T.F\Desktop\2ANO\POO\ExerciciosVS\TPOO2021\TPOO2021\Comando.cpp(120,7): warning C4101: 'criados': unreferenced local variable
+  TPOO2021.vcxproj -> C:\Users\T.F\Desktop\2ANO\POO\ExerciciosVS\TPOO2021\Debug\TPOO2021.exe

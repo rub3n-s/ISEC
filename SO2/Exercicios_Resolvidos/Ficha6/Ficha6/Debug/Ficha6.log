@@ -1,0 +1,5 @@
+﻿  ex2.c
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha6\Ficha6\ex2.c(38,10): warning C4013: '_setmode' undefined; assuming extern returning int
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha6\Ficha6\ex2.c(29,9): warning C4101: 'hOpenFileMapping': unreferenced local variable
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha6\Ficha6\ex2.c(27,9): warning C4101: 'hFile': unreferenced local variable
+  Ficha6.vcxproj -> C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha6\Debug\Ficha6.exe

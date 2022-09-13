@@ -1,0 +1,37 @@
+div {
+    text-align:center;
+    font-style:verdana;
+    color:#fff;
+    background-color: #222930;
+    padding: 0.25em;
+}
+
+#horizontal li {
+    background-color: #4EB1BA;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    margin:0.5em;
+    padding: 0.25em;
+    display: inline-block;
+    width: 5em;
+}
+
+#vertical a {
+    width: 10em;
+    color: #fff;
+    text-decoration: none;
+    background-color: #4EB1BA;
+    border: 1px solid #DDDDDD;
+    border-radius: 5px;
+    padding: 0.25em;
+    margin: 0.5em auto;
+    display: block;
+}
+
+#horizontal li:hover {
+    border-color: #AAAAAA #FFFFFF #FFFFFF #AAAAAA;
+}
+
+#vertical a:hover {
+    border-color: #AAAAAA #FFFFFF #FFFFFF #AAAAAA;
+}

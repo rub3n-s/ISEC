@@ -1,0 +1,8 @@
+{
+    "files.associations": {
+        "pthread.h": "c",
+        "stdlib.h": "c",
+        "signal.h": "c",
+        "imprime.h": "c"
+    }
+}

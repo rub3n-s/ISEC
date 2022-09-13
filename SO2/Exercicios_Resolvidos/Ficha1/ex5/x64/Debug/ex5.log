@@ -1,0 +1,4 @@
+﻿  main.c
+\\vmware-host\Shared Folders\Desktop\SO2\ficha1\ex5\main.c(34,20): warning C4133: 'função': tipos incompatíveis - de 'char [4]' para 'const wchar_t *'
+\\vmware-host\Shared Folders\Desktop\SO2\ficha1\ex5\main.c(60,23): warning C4133: 'função': tipos incompatíveis - de 'char [4]' para 'const wchar_t *'
+  ex5.vcxproj -> \\vmware-host\Shared Folders\Desktop\SO2\ficha1\x64\Debug\ex5.exe

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<HBox xmlns="http://javafx.com/javafx"
+      xmlns:fx="http://javafx.com/fxml"
+      fx:controller="pt.isec.pa.ui.StatsPane"
+      prefHeight="50.0" prefWidth="9999.0"
+      spacing="10" fx:id="root">
+
+    <Label text="Player 1:" prefHeight="9999" prefWidth="9999" alignment="CENTER_RIGHT"/>
+    <Label fx:id="lbPlayer1" text="0" prefHeight="9999" prefWidth="9999"/>
+    <Label text="Player 2:" prefHeight="9999" prefWidth="9999" alignment="CENTER_RIGHT"/>
+    <Label fx:id="lbPlayer2" text="0" prefHeight="9999" prefWidth="9999"/>
+
+</HBox>

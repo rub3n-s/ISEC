@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1570547246 source:/Users/rubensantos/Desktop/codeprojs/mediapeso/main.c
+	<stdio.h>
+	<stdlib.h>
+

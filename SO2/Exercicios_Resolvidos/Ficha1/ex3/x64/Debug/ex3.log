@@ -1,0 +1,9 @@
+﻿  main.c
+\\vmware-host\Shared Folders\Desktop\SO2\ficha1\ex3\main.c(13,9): warning C4013: 'setmode' indefinido; assumindo extern retornando int
+\\vmware-host\Shared Folders\Desktop\SO2\ficha1\ex3\main.c(18,12): warning C4477: 'wprintf': a cadeia de formato '%d' requer um argumento do tipo 'int', mas um argumento variadic 2 tem o tipo 'size_t'
+\\vmware-host\Shared Folders\Desktop\SO2\ficha1\ex3\main.c(18,12): message : considere usar '%zd' na cadeia de formato
+\\vmware-host\Shared Folders\Desktop\SO2\ficha1\ex3\main.c(21,13): warning C4778: 'wscanf_s': cadeia de formato não terminada '%255'
+\\vmware-host\Shared Folders\Desktop\SO2\ficha1\ex3\main.c(21,25): warning C4474: 'wscanf_s': excesso de argumentos transmitidos para cadeia de caracteres de formato
+\\vmware-host\Shared Folders\Desktop\SO2\ficha1\ex3\main.c(21,25): message : espaços reservados e seus parâmetros esperam 0 argumentos variadic, mas 2 foram fornecidos
+\\vmware-host\Shared Folders\Desktop\SO2\ficha1\ex3\main.c(22,29): warning C4133: 'função': tipos incompatíveis - de 'char [4]' para 'const wchar_t *'
+  ex3.vcxproj -> \\vmware-host\Shared Folders\Desktop\SO2\ficha1\x64\Debug\ex3.exe

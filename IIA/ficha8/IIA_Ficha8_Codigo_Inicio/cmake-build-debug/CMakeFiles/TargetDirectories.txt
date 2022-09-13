@@ -1,0 +1,3 @@
+/Users/rubensantos/Desktop/IIA/ficha8/IIA_Ficha8_Codigo_Inicio/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/Users/rubensantos/Desktop/IIA/ficha8/IIA_Ficha8_Codigo_Inicio/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rubensantos/Desktop/IIA/ficha8/IIA_Ficha8_Codigo_Inicio/cmake-build-debug/CMakeFiles/IIA_Ficha8_Codigo_Inicio.dir

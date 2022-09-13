@@ -1,0 +1,457 @@
+/*================================
+         Estilos Globais
+================================*/
+
+*, /*define os seguintes estilos a todos os objetos*/
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-family: 'Nunito', sans-serif;
+  font-size: 10px;
+  box-sizing: border-box;
+}
+
+body {
+  background: url("/img/amb.png") center no-repeat;
+  background: linear-gradient(135deg, rgba(24, 131, 42, 0.9) 0%, rgba(72,56,159, .8) 100%) , url("/img/amb.png") center no-repeat;
+  height:100vh;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+img {
+  width: 100%;
+  max-width: 100%;
+  height: auto;
+}
+
+
+/*================================
+             Header
+================================*/
+
+header {
+  width: 100%;
+  height: 5rem;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 1;
+}
+
+.container {
+  width: 100%;
+  max-width: 98rem;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+}
+
+nav {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  border-bottom: 1px solid rgba(255,255,255,.2);
+}
+
+.nav-brand {
+  width: 4rem;
+}
+
+.menu-icons i {
+  font-size: 3.5rem;
+  color: #fafafa;
+  cursor: pointer;
+}
+
+.close i {
+  color: #eb648c
+}
+
+.nav-list {
+  width: 25rem;
+  height: 100vh;
+  background-color: rgba(100,148,75,.95);
+  position: fixed;
+  top: 0;
+  right: -26rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  z-index: 1500;
+  transition: all 650ms ease-in-out;
+}
+
+.nav-list.active {
+  right: 0;
+}
+
+.close {
+  position: absolute;
+  top: 1rem;
+  left: 1.5rem;
+}
+
+.nav-item {
+  margin: 1.5rem 0;
+}
+
+.nav-link {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: rgba(0,0,0,.7);
+}
+
+.expand {
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  color: rgba(0,0,0,.7);
+}
+
+.nav-list > li > ul {
+  display: none;
+  padding: 1rem;
+  margin-top: 1rem;
+  background: rgba(60, 110, 0, 0.885);
+  border-radius: 5px;
+}
+
+.nav-sub {
+  color: #d7d4ed;
+  margin: auto;
+}
+
+.nav-sub:hover {
+  color: #eb648c;
+}
+
+.li-sub {
+  margin: 1rem 0;
+  text-align: center;
+}
+
+.p-hidden {
+  color: #fff;
+}
+
+.hr-index {
+  display: none;
+}
+
+.nav-bar {
+  margin: 0 .5rem !important;
+}
+
+.nav-item:hover {
+  display: flex;
+}
+
+#btn-expand {
+  position: relative;
+  width:1.5rem;
+  height:1.5rem;
+  font-size: 1.25rem;
+  font-weight: bolder;
+  color: #fafafa;
+  background-color: #eb648c;
+  border-color: #eb648c;
+  left: 1rem;
+  border-radius: 11px;
+  -webkit-border-radius: 11px;
+  box-shadow: 0 1px 2px #5e5d5b;
+  text-align: center;
+  line-height: 10px;
+  top: -.2rem;
+}
+
+/*================================
+            Registar
+================================*/
+
+.title-heading {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5rem 0;
+  color: rgba(0,0,0,.7);
+}
+
+.title-heading h3 {
+  font-size: 1.4rem;
+}
+
+.title-heading h1 {
+  font-family: 'Aldrich', sans-serif;
+  font-size: 2.7rem;
+  margin: 5rem 0 1rem;
+}
+
+.title-heading p {
+  text-transform: lowercase;
+}
+
+/*======================
+        Footer
+======================*/
+
+footer {
+  padding: 2.5rem 0;
+  background-color: rgba(255,255,255,.45);
+  text-align: center;
+  color: rgba(0,0,0,.7);
+  bottom:0;
+  width:100%;
+  position: absolute;
+}
+
+/*======================
+      Media Queries 
+======================*/
+
+/*altera o conteudo da navbar para que ecrãs com largura superior a 780px*/
+@media screen and (min-width: 780px) {
+  header {
+    height: 8rem;
+  }
+
+  .nav-brand {
+    width: 4.65rem;
+  }
+
+  .nav-list { /* faz reset à barra de navegação */
+    width: initial;
+    height: initial;
+    background-color: transparent;
+    position: initial;
+    top: initial;
+    right:initial;
+    flex-direction: row;
+    transition: initial;
+  }
+
+  .menu-icons {
+    display: none;
+  }
+
+  .nav-item,
+  .expand {
+    margin: 0 2.5rem;
+  }
+
+  .nav-link,
+  .current {
+    color: #fafafa;
+    position: relative;
+    font-size: 1.3rem;
+  }
+
+  .nav-link::before,
+  .current::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -.5rem;
+    background-color: #eb648c;
+    width: 100%;
+    height: 2px;
+    transform: scaleX(0);
+    transform-origin: left;
+    transition: transform 650ms;
+  }
+
+  .current::before {
+    transform: scaleX(1);
+  }
+
+  .nav-link:hover::before {
+    transform: scaleX(1);
+  }
+
+  .nav-list > li > ul { 
+    position: absolute;
+  } 
+
+  .expand {
+    color: #fafafa;
+    font-size: 1.3rem;
+  }
+  
+  #btn-expand {
+    left:-1.7rem;
+    top: 0;
+  }
+}
+
+/*transforma a barra que separa os links login e registar e a cor dos links ao fazer hover*/
+@media (max-width: 779px) {
+  .hr-index {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border:1px solid #0000004d;
+    width: 70%;
+  }
+
+  .p-hidden {
+    display: none !important;
+  }
+
+  .nav-bar {
+    min-width: 100%;
+    margin: .5rem 0;
+  } 
+
+  .nav-link:hover,
+  .expand:hover {
+    color: #fafafa;
+  }
+
+  .nav-sub:hover {
+    color: #eb648c;
+  }
+
+  .nav-list > li > ul {
+    box-shadow: 0px 5px 21px -6px;
+  }
+}
+
+/*-----------------------*/
+
+.formulario {
+  position: absolute;
+  height: 400px;
+  width: 300px;
+  margin: -200px 0 0 -150px;
+  top: 50%;
+  left: 50%;
+  background-color: rgba(255,255,255,.25);
+  border-radius: 10px;
+}
+
+.container-reg {
+  position: relative;
+  top: 2.1rem;
+  border-radius: 10px;
+}
+
+.float-label-field {
+  border: none;
+  outline: none;
+  position: relative;
+  margin: 0 0 20px 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+  
+}
+
+.float-label-field input {
+  border: none;
+  outline: none;
+  width: 175px;  
+  margin: 2rem;
+  font-size: 18px;
+  border-bottom: solid 1px #efefef;
+  border-radius: 5px;
+}
+
+.float-label-field label {
+  opacity: 0.5;
+  position: absolute;
+  top: 2.2rem;
+  margin-left: 2.5rem;
+  transition: all 0.2s ease;
+  font-size: 1.4rem;
+}
+
+.float-label-field.focus label {
+  color: rgba(0,0,0,.7);
+}
+
+.float-label-field.focus input {
+  border-bottom: solid 1px #eb648c;
+}
+
+.float-label-field.float label {
+  opacity: 1;
+  top: -1rem;
+  left:4rem;
+  font-size: 1.8rem;
+  transition: all 0.2s ease;
+  font-weight: bold;
+}
+
+.div-input > span {
+  text-align: center;
+  text-transform: uppercase;
+  margin: 5rem 0;
+  color: rgba(0,0,0,.7);
+  font-size: 1.5rem;
+}
+
+.btn-reg {
+  color: #fff !important;
+  text-transform: uppercase;
+  text-decoration: none;
+  background: #eb648c;
+  padding: 8px 25px;
+  border-radius: 5px;
+  display: inline-block;
+  border: none;
+  transition: all 0.4s ease 0s;
+  cursor: pointer;
+}
+
+.btn-reg:hover {
+  background: #434343;
+  letter-spacing: 1px;
+  -webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  -moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+  box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+  transition: all 0.4s ease 0s;
+  }
+
+.text-center {
+  text-align: center;
+}
+
+@media screen and (max-height:640px) {
+  body {
+    height: 640px;
+  }
+
+  main {
+    height: 100%;
+    padding-bottom: 100px;
+  }
+
+  .sugestoes {
+    position: relative;
+    height: 300px;
+    top: 26rem;
+  }
+  
+  footer {
+    position: relative;
+    bottom: 0;
+  }
+}

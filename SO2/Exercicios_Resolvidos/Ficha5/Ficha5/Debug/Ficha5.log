@@ -1,0 +1,4 @@
+﻿  ex1.c
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha5\Ficha5\ex1.c(79,15): warning C4101: 'inter': unreferenced local variable
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha5\Ficha5\ex1.c(78,15): warning C4101: 'range': unreferenced local variable
+  Ficha5.vcxproj -> C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha5\Debug\Ficha5.exe

@@ -1,0 +1,3 @@
+﻿  main.cpp
+LINK : warning LNK4076: arquivo de status incremental inválido 'x64\Debug\ex4.ilk' (que será excluído); vinculação não incremental
+  ex4.vcxproj -> \\vmware-host\Shared Folders\Desktop\SO2\ficha1\x64\Debug\ex4.exe

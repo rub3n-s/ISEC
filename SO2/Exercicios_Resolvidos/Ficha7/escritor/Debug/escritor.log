@@ -1,0 +1,7 @@
+﻿  main.c
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha7\escritor\main.c(69,40): error C2039: 'hPipe': is not a member of 'ThreadData'
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha7\escritor\main.c(15): message : see declaration of 'ThreadData'
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha7\escritor\main.c(69,33): error C2198: 'DisconnectNamedPipe': too few arguments for call
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha7\escritor\main.c(109,22): error C2039: 'hPipe': is not a member of 'ThreadData'
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha7\escritor\main.c(15): message : see declaration of 'ThreadData'
+C:\Users\rubensantos\Desktop\Estudo_SO2\Ficha7\escritor\main.c(109,16): error C2198: 'CloseHandle': too few arguments for call

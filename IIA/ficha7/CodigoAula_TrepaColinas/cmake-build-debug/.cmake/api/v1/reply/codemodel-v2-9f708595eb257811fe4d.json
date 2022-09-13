@@ -1,0 +1,60 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.21"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "CodigoAula_TrepaColinas",
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "CodigoAula_TrepaColinas::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-CodigoAula_TrepaColinas-Debug-92bfbeebaafd1b435cc3.json",
+					"name" : "CodigoAula_TrepaColinas",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/rubensantos/Desktop/IIA/07 - Ficha 7/CodigoAula_TrepaColinas/cmake-build-debug",
+		"source" : "/Users/rubensantos/Desktop/IIA/07 - Ficha 7/CodigoAula_TrepaColinas"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

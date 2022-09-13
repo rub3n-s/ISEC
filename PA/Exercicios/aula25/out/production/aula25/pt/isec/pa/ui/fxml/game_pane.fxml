@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.layout.BorderPane?>
+<BorderPane xmlns="http://javafx.com/javafx"
+            xmlns:fx="http://javafx.com/fxml"
+            fx:controller="pt.isec.pa.ui.GamePane"
+            prefHeight="600.0" prefWidth="800.0"
+            fx:id="root">
+
+    <top>
+        <fx:include source="stats_pane.fxml" />
+    </top>
+    <center>
+        <fx:include source="board_pane.fxml" />
+    </center>
+    <bottom>
+        <fx:include source="commands_pane.fxml" />
+    </bottom>
+
+</BorderPane>

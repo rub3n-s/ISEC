@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport"
+		content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>Verde Universal</title>
+	<link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/log-reg.css">
+</head>
+<body>
+	<header>
+		<div class="container">
+			<nav>
+				<div class="nav-brand">
+					<a href="index.html">
+						<img src="img/eco.png" alt="">
+					</a>
+				</div>
+
+				<div class="menu-icons open">
+					<i class="icon ion-md-menu"></i>
+				</div>
+
+				<ul class="nav-list main">
+					<div class="menu-icons close">
+						<i class="icon ion-md-close"></i>
+					</div>
+
+					<li class="nav-item current">
+						<a href="index.html" class="nav-link">Início</a>
+					</li>
+					<li class="li-sub">
+						<a href="#" class="expand">Sobre nós</a><button id="btn-expand">+</button>
+						<ul class="esconder">
+							<li class="nav-item"><a class="nav-link nav-sub" href="index.html#quemsomos">Quem somos?</a></li><br>
+							<li class="nav-item"><a class="nav-link nav-sub" href="index.html#oquefazemos">O que fazemos?</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a href="index.html#galeria" class="nav-link">Galeria</a>
+					</li>
+					<li class="nav-item">
+						<a href="index.html#eventos" class="nav-link">Eventos</a>
+					</li>
+					<li class="nav-item nav-bar">
+						<p class="p-hidden">|</p>
+						<hr class="hr-index">
+					</li>
+					<li class="nav-item">
+						<a id="reg" class="nav-link" href="registo.html">Registar</a>
+					</li>
+					<li class="nav-item">
+						<a id="log" class="nav-link" href="login.html">Login</a>
+					</li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+
+	<main>
+		<section class="formulario">
+			<div class="container-reg">
+				<div class="title-heading">
+					<h1>Registar</h1>
+				</div>
+				<fieldset class='float-label-field'>
+					<label for="username">Nome de Utilizador</label>
+					<input id="username" class="teste" type='text'>
+				</fieldset>
+
+				<fieldset class='float-label-field'>
+					<label for="password">Palavra-Passe</label>
+					<input id="password" class="teste" type='password'>
+				</fieldset>
+
+				<div class="container text-center">
+					<button id="confirmar" class="btn-reg" onclick="callme()">
+						Registar
+					</button>
+				</div>
+			</div>
+		</section>
+	</main>
+
+	<footer>
+		<p>&copy; 2020 Verde Universal. Todos os direitos reservados.</p>
+	</footer>
+
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+	<script src="js/registo.js"></script>
+</body>
+</html>

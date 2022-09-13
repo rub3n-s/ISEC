@@ -1,0 +1,108 @@
+1) 
+    who
+    who -q
+    who | wc -l
+
+2)
+    who | tr -s " " | cut -d " " -f1 | sort -u | wc -l (facultativo usar o translate)
+    who | cut -d " " -f1 | sort -u | wc -l
+
+3) 
+    who | tr -s " " | cut -d " " -f1 | grep "^rubensantos$" | wc -l
+
+4)
+    ls -l /tmp/ | wc -l
+
+5)
+    # Remove todas as cols excepto a primeira 
+    # Os elementos da primeira coluna com 'x' são executáveis 
+    ls -l /bin/ | cut -d " " -f1 | grep x | wc -l
+
+6)
+    # Ficheiros que começam com 'c' (char) ou 'b' (block) 
+    ls -l /dev | grep "^[b,c]" | wc -ls
+
+7)
+    # Onde se encontram os discos sata ("sda") 
+    ls /dev
+
+    * Ao usar o '.' significa que pode ser qualquer coisa *
+    ls /dev | grep "^sd.$" | wc -l
+
+8)
+    ls /etc/ | grep "gnome" | wc -l
+
+9)
+    # ficheiro regular começa com '-' 
+    ls -l /etc | grep "^-rw-r-----" | wc -l > conta.txt
+
+    # ficheiro conta já vai conter o numero de caracteres 
+    cat conta.txt
+
+10)
+    echo "exemplo" > ~/ficheiro.txt
+    cat ficheiro.txt
+
+    # vai substituir o que estava no ficheiro
+    echo "etc" > ~/ficheiro.txt
+
+    # append '>>' acrescenta o nome de utilizador ao conteudo que estava no ficheiro
+    echo "$USER" >> ~/ficheiro.txt
+
+11)
+    # read = 4, write = 2, x = 1 
+    # para o dono -> read + write = 6 
+    
+    chmod 640 ficheiro.txt
+    ls -l ficheiro.txt
+
+12)
+    # vai dar erro por não ter permissões
+    ls ~ | grep "^.p" > /tmp/listaFicheiros.txt
+
+    # usar sudo para obter a permissão
+    sudo ls ~ | grep "^.p" > /tmp/listaFicheiros.txt
+
+13)
+    # começar por retirar os espaços com o translate ('tr -s')
+    # usar o 'sort -kn' ('n' é o num. da coluna) e indicar o numero da coluna a ser ordenada
+    ls -l /bin/ | tr -s " " | sort -k5 -n -r | head -n 7 | cut -d " " -f5,9
+
+    # ou, apenas devolve o numero
+    ls -l /bin/ | tr -s " " | cut -d " " -f5 | sort -n -r | head -n 7
+
+14)
+    ls /home | grep "^[a,e,i,o,u]"
+
+    # ao usar '-i' torna-se case sensitive
+    ls /home | grep -i "^[a,e,i,o,u]"
+
+15)
+    # usar um comando dentro de um comando com '$'
+    ls /home/$(ls /home | grep 'ruben' | head -n 1)
+
+16)
+    # id de utilizadores começa em 1000
+    cat /etc/passwd | cut -d: -f1,3 | grep "1...$"
+
+17)
+    cat /etc/passwd | cut -d: -f1,3 | grep "1...$" | sort
+
+18)
+    # pega na segunda coluna e imprime o reverso ('-r')
+    cat /etc/passwd | cut -d: -f1,3 | grep "1...$" | sort -t ":" -k2
+
+19)
+
+    echo "Esta a utilizar o sistema operativo "
+    #uname -> devolve o sistema operativo a ser usado
+    echo "Esta a utilizar o sistema operativo $(uname)"
+
+    output: "Esta a utilizar o sistema operativo Darwin"
+
+20)
+    ls /home/$(echo $USER) | wc
+
+25)
+    ls -l ~ | tr -s " " | sort -t " " -k 3 | head -n 4 | tail -n 3
+

@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Verde Universal</title>
+    <link href="https://unpkg.com/ionicons@4.5.10-0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Nunito&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Aldrich&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/index.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <nav id="barra-navegacao">
+                <div class="nav-brand">
+                    <a href="index.html">
+                        <img src="img/eco.png" alt="">
+                    </a>
+                </div>
+
+                <div class="menu-icons open">
+                    <i class="icon ion-md-menu"></i>
+                </div>
+
+                <ul class="nav-list main">
+                    <div class="menu-icons close">
+                        <i class="icon ion-md-close"></i>
+                    </div>
+
+                    <li class="nav-item current">
+                        <a href="index.html" class="nav-link">Início</a>
+                    </li>
+                    <li class="li-sub">
+                        <a href="#" class="expand">Sobre nós</a><button id="btn-expand">+</button>
+                        <ul class="esconder">
+                            <li class="nav-item"><a class="nav-link nav-sub" href="#quemsomos">Quem somos?</a></li><br>
+                            <li class="nav-item"><a class="nav-link nav-sub" href="#oquefazemos">O que fazemos?</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#galeria" class="nav-link">Galeria</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#eventos" class="nav-link">Eventos</a>
+                    </li>
+                    <li class="nav-item nav-bar">
+                        <p class="p-hidden">|</p>
+                        <hr class="hr-index">
+                    </li>
+                    <li class="nav-item">
+                        <a id="reg" class="nav-link" href="registo.html">Registar</a>
+                        <a id="aReg" class="nav-link" href="#" onclick="clearSessionStorage()">LogOut</a>
+                    </li>
+                    <li class="nav-item">
+                        <a id="log" class="nav-link" href="login.html">Login</a>
+                        <p class="nav-link" id="pLog"></p>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="container">
+                <div class="main-message">
+                    <h3>Por um planeta verde,</h3>
+                    <h1>Verde Universal</h1>
+                    <p>
+                        preservação do meio ambiente recorrendo à realização de diversos eventos.
+                    </p>
+                    <a href="#oquefazemos" class="btn-saibamais">Saiba mais</a>
+                </div>
+            </div>
+        </section>
+
+        <section class="quem-somos">
+            <div class="container">
+                <div class="title-heading">
+                    <h1 id="quemsomos" class="anchors">Quem somos?</h1>
+                    <p>
+                        A <span>verde natural</span> é uma organização
+                        que tem o objetivo de preservar e ajudar a melhorar o meio ambiente, para isso contamos com as
+                        pessoas
+                        que se voluntariam para participarem nos eventos organizados por nós e com as nossas parcerias.
+                    </p>
+
+                    <div class="container container-equipa">
+                        <div class="equipa-grid">
+
+                            <!-- #grid-item 1 -->
+                            <div class="equipa-grid-item">
+
+                                <div class="equipa-profile">
+                                    <img src="img/user.png" alt="">
+                                    <h2>Rúben Santos</h2>
+                                </div>
+
+                                <div class="equipa-text-box">
+                                    <p>
+                                        Especialista em design gráfico e multimédia, licenciado em Engenharia
+                                        Informática.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- #grid-item 2 -->
+                            <div class="equipa-grid-item">
+                                <div class="equipa-profile">
+                                    <img src="img/user.png" alt="">
+                                    <h2>Renato Tavares</h2>
+                                </div>
+
+                                <div class="equipa-text-box">
+                                    <p>
+                                        Especialista em design gráfico e multimédia, licenciado em Engenharia
+                                        Informática.
+                                    </p>
+                                </div>
+                            </div>
+
+                            <!-- #grid-item 3 -->
+                            <div class="equipa-grid-item">
+                                <div class="equipa-profile">
+                                    <img src="img/user.png" alt="">
+                                    <h2>Maria Brito</h2>
+                                </div>
+
+                                <div class="equipa-text-box">
+                                    <p>
+                                        Especialista em design gráfico e multimédia, licenciado em Engenharia
+                                        Informática.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <button class="btn-saibamais como-entrar" style="margin-top:10rem">Clique aqui e junte-se a
+                            nós!</button>
+
+                        <div class="container entrar-equipa">
+                            <div class="title-heading title-equipa">
+                                <h1>Quer juntar-se a nós?</h1>
+                                <h3>Preencha o formulário</h3>
+                            </div>
+
+                            <div class="container">
+                                <form action="mailto:alguem@exemplo.com" method="post">
+                                    <fieldset class='label-field'>
+                                        <label>Nome:</label>
+                                        <input class="form-inputs" id="colab" name="colaborador" required>
+                                    </fieldset>
+
+                                    <fieldset class='label-field'>
+                                        <label>Sexo:</label>
+                                        <div class="como-entrar-grid">
+
+                                            <!-- #grid-item 1 -->
+                                            <div class="como-entrar-grid-item">
+                                                Masculino:
+                                                <input type="radio" id="feminino" name="feminino" class="teste">
+                                            </div>
+
+                                            <!-- #grid-item 2 -->
+                                            <div class="como-entrar-grid-item">
+                                                Feminino:
+                                                <input type="radio" id="feminino" name="feminino" class="teste">
+                                            </div>
+
+                                            <!-- #grid-item 3 -->
+                                            <div class="como-entrar-grid-item">
+                                                Outro:
+                                                <input type="radio" id="feminino" name="feminino" class="teste">
+                                            </div>
+
+                                        </div>
+                                    </fieldset>
+
+                                    <fieldset class='label-field'>
+                                        <label>Cartão de Identificação:</label>
+                                        <input class="form-inputs" id="identificacao" name="identificacao" required>
+                                    </fieldset>
+
+                                    <fieldset class='label-field'>
+                                        <label>Idade:</label>
+                                        <input class="form-inputs" type="number" id="idade" name="idade" required>
+                                    </fieldset>
+
+                                    <fieldset class='label-field'>
+                                        <label for="texto">Escreva aqui...</label>
+                                        <textarea id="texto" class="form-inputs" name="texto" required></textarea>
+                                    </fieldset>
+
+                                    <div class="container btn-center">
+                                        <input id="confirmar" type="submit" class="btn-submeter"></input>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                    </div>
+
+                    <h1 id="oquefazemos" class="anchors">O que fazemos?</h1>
+                    <div class="container oquefazemos">
+                        <div class="container-left">
+                            <img src="img/oqf-1.png" alt="">
+
+                            <div class="oqf-text">
+                                <h2>Plantação de Árvores</h2><br>
+                                <p>
+                                    Programa de voluntariado que se constitui numa agenda de eventos abertos ao público
+                                    em geral, que incluí intervenções pontuais.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container-right">
+                            <img src="img/oqf-2.png" alt="">
+                            <div class="oqf-text">
+                                <h2>Reciclagem</h2><br>
+                                <p>
+                                    Com recurso a uma agenda de eventos é feita uma recolha de lixo, com o intuito de
+                                    reciclar.
+                                </p>
+                            </div>
+                        </div>
+                        <div class="container-left">
+                            <img src="img/oqf-3.png" alt="">
+
+                            <div class="oqf-text">
+                                <h2>Energias Renováveis</h2><br>
+                                <p>É feito uma apelo ao uso das energias renováveis e veículos elétricos.</p>
+                            </div>
+                        </div>
+                        <div class="container-right">
+                            <img src="img/oqf-4.png" alt="">
+                            <div class="oqf-text">
+                                <h2>Limpeza de Praias</h2><br>
+                                <p>Pontualmente são realizados eventos para a preservação das praias da costa
+                                    portuguesa.</p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <h1 id="galeria" class="anchors">Galeria</h1>
+                    <div class="container">
+                        <iframe width="100%" height="450" src="https://www.youtube.com/embed/Qsd9dCO2m5E"
+                            frameborder="0"
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                            allowfullscreen>
+                        </iframe>
+
+                        <!-- slideshow container -->
+                        <div class="slideshow-container">
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">1 / 3</div>
+                                <img src="img/slide1.jpg" style="width:100%;">
+                                <div class="text">Limpeza de Praias</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">2 / 3</div>
+                                <img src="img/slide2.jpg" style="width:100%;">
+                                <div class="text">Plantação de Árvores</div>
+                            </div>
+
+                            <div class="mySlides fade">
+                                <div class="numbertext">3 / 3</div>
+                                <img src="img/slide3.jpg" style="width:100%;">
+                                <div class="text">Manifestações</div>
+                            </div>
+
+                        </div>
+                        <br>
+
+                        <!-- Circulos/Pontos -->
+                        <div style="text-align:center">
+                            <span class="dot" onclick="currentSlide(1)"></span>
+                            <span class="dot" onclick="currentSlide(2)"></span>
+                            <span class="dot" onclick="currentSlide(3)"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="eventos">
+            <div class="title-heading">
+                <h1 id="eventos" class="anchors">Eventos</h1>
+            </div>
+
+            <div class="activities-grid">
+                <!-- grid item #1 -->
+                <div class="activities-grid-item manifestacoes">
+                    <i class="icon ion-md-star"></i>
+                    <h1>Manifestações</h1>
+                    <p>
+                        Evento que se irá realizar no lugar X, com a intenção de melhorar os aspetos de Y
+                        para um melhor Z.<br><br>
+                        Evento a realizar-se em: xx/xx/xxxx
+                    </p>
+                </div>
+
+                <!-- grid item #2 -->
+                <div class="activities-grid-item limpeza">
+                    <i class="icon ion-md-compass"></i>
+                    <h1>Limpeza de Praias</h1>
+                    <p>
+                        Evento que se irá realizar no lugar X, com a intenção de melhorar os aspetos de Y
+                        para um melhor Z.<br><br>
+                        Evento a realizar-se em: xx/xx/xxxx
+                    </p>
+                </div>
+
+                <!-- grid item #3 -->
+                <div class="activities-grid-item sensibilizacao">
+                    <i class="icon ion-md-bonfire"></i>
+                    <h1>Ações de sensibilização</h1>
+                    <p>
+                        Evento que se irá realizar no lugar X, com a intenção de melhorar os aspetos de Y
+                        para um melhor Z.<br><br>
+                        Evento a realizar-se em: xx/xx/xxxx
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="fundadores">
+            <div class="container">
+                <div class="fundador">
+                    <div class="fundadores-grid">
+
+                        <!-- #grid-item 1 -->
+                        <div class="fundadores-grid-item">
+                            <div class="fundador-text-box">
+                                <p>
+                                    Especialista em design gráfico e multimédia, licenciado em Engenharia Informática.
+                                    Trata de assuntos relacionados com a web.
+                                </p>
+                                <i class="icon ion-md-quote"></i>
+                            </div>
+
+                            <div class="fundador-profile">
+                                <img src="img/user.png" alt="">
+                                <h1>Rúben Santos</h1>
+                            </div>
+                        </div>
+
+                        <!-- #grid-item 2 -->
+                        <div class="fundadores-grid-item">
+                            <div class="fundador-text-box">
+                                <p>
+                                    Especialista em Recursos Humanos, licenciado em Gestão de Empresas, o seu foco é garantir que os colaboradores tenham
+                                    as melhores condições possíveis.
+                                </p>
+                                <i class="icon ion-md-quote"></i>
+                            </div>
+
+                            <div class="fundador-profile">
+                                <img src="img/user.png" alt="">
+                                <h1>Renato Tavares</h1>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sugestoes">
+            <div class="container">
+                <div class="title-heading title-sugestao">
+                    <h1>Tem alguma sugestão?</h1>
+                    <h3>Preencha o formulário</h3>
+                </div>
+
+                <div class="container">
+                    <form action="mailto:alguem@exemplo.com" method="post">
+                        <fieldset class='float-label-field'>
+                            <label for="username">Nome</label>
+                            <input id="username" name="utilizador" class="teste" required>
+                        </fieldset>
+
+                        <fieldset class='float-label-field'>
+                            <label for="email">Email</label>
+                            <input id="email" name="email" class="teste" required>
+                        </fieldset>
+
+                        <fieldset class='float-label-field'>
+                            <label for="sugest">Sugestão</label>
+                            <textarea id="sugest" name="sugestao" class="teste" required></textarea>
+                        </fieldset>
+
+                        <div class="container btn-center">
+                            <input id="confirmar" type="submit" class="btn-submeter"></input>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2020 Verde Universal. Todos os direitos reservados.</p>
+    </footer>
+
+    <button onclick="topFunction()" id="btnTopo"><i class="arrow up"></i></button>
+
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@9"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+    <script src="js/index.js"></script>
+
+    <script>
+        $('.como-entrar').click(function () {
+            $(".entrar-equipa").slideToggle("fast", function () { });
+        })
+    </script>
+</body>
+
+</html>

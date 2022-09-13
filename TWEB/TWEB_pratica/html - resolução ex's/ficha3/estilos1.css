@@ -1,0 +1,16 @@
+span, h1 {
+    font-style: italic;
+}
+
+h1 {
+    color: #158AC4;
+    text-transform: uppercase;
+}
+
+html {
+    background-color: #DDDDDD; 
+}
+
+p {
+    color: #666666;
+}
