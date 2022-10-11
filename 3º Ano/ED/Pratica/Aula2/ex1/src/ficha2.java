@@ -192,28 +192,42 @@ public class ficha2 {
         do {
             if (arr[meio] == chave) 
                 return true;
-
-            if (arr[meio] > 0 && chave > 0) {
+            if (chave * arr[meio] >= 0) {
                 if (arr[meio] < chave) 
                     start = meio + 1;
                 else
                     end = meio -1;
-                meio = (start + end) / 2;   // calcula novo meio para ser testado
             }
-            else if (arr[meio] < 0 && chave < 0) {                
-                if (arr[meio] > chave) 
-                    start = meio - 1;
+            else {
+                if (arr[meio] < chave) 
+                    end = meio - 1;
                 else
-                    end = meio + 1;
-                meio = (start - end) / 2;   // calcula novo meio para ser testado
+                    start = meio + 1;
             }
-            
+            meio = (start + end) / 2;   // calcula novo meio para ser testado
         } while(start < end);
 
         if (arr[meio] == chave) 
             return true;
 
         return false;       // chave deve ir para a esquerda do meio
+    }
+
+    public static int devolveIndice(int[] arr) {
+        int start = 0, end = arr.length - 1;
+        int meio = (start + end) / 2;
+        do {
+            if (arr[meio] > meio) 
+                end = meio;
+            else 
+                start = meio + 1;
+
+            meio = (start + end) / 2;   // calcula novo meio para ser testado
+        } while(start < end);
+
+        if (arr[meio] > meio) 
+            return meio;
+        return -1;
     }
 
     public static void main(String[] args) throws Exception {
@@ -319,11 +333,23 @@ public class ficha2 {
         //------------------------------------------
         // ex9 - Procura valor no array
         //------------------------------------------
-        int[] arr = {3,6,8, -10,-3,-2,-1};
-        int chave = 15;
+        /*int[] arr = {3,6,8, -10,-3,-2,-1};
+        int chave = 6;
 
-        System.out.println("Valor = " + chave +  " Resultado = " + procuraValor(arr, chave));
+        System.out.println("Valor = " + chave +  " Resultado = " + procuraValor(arr, chave));*/
 
+        //------------------------------------------
+        // ex10 - Devolve indice
+        //------------------------------------------
+        int[] arr1 = {3,7,12,15};
+        System.out.println("Resultado = " + devolveIndice(arr1));
+
+        int[] arr2 = {-3,1,7,12,15};
+        System.out.println("Resultado = " + devolveIndice(arr2));
+
+        int[] arr3 = {-15,-14,1,2,3,4};
+        System.out.println("Resultado = " + devolveIndice(arr3));
+        
         // fecha o scanner
         //sc.close();
     }
