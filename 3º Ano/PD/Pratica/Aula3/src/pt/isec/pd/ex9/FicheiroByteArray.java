@@ -1,4 +1,4 @@
-package pt.isec.pd.ex9.ex6;
+package pt.isec.pd.ex9;
 
 import java.io.IOException;
 import java.io.Serial;

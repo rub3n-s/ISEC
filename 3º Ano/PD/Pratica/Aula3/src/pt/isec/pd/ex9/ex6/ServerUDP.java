@@ -1,18 +1,20 @@
 package pt.isec.pd.ex9.ex6;
 
+import pt.isec.pd.ex9.FicheiroByteArray;
+
 import java.io.*;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
 import java.net.InetAddress;
 
 public class ServerUDP {
+    private static final int PORT = 9001;
+
     private static final String PATH = "./ServerFiles/";
 
-    private static final String file1 = "isec.png";
-
-    private static final String file2 = "landscape.jpg";
-
-    private static final String file3 = "sample-text.txt";
+    private static final String FILE = "isec.png";
+    //private static final String FILE = "landscape.jpg";
+    //private static final String FILE = "sample-text.txt";
 
     private static final int MAX_DATA = 4000;
 
@@ -54,7 +56,7 @@ public class ServerUDP {
         boolean keepGoing = true;
 
         // 1) Criar o DatagramSocket e lancar a excepcao no main
-        DatagramSocket ds = new DatagramSocket(9001);
+        DatagramSocket ds = new DatagramSocket(PORT);
 
         while (keepGoing) {
             // 2) Criar o Datagram Packet para receber informacao (2 argumentos)
@@ -76,7 +78,7 @@ public class ServerUDP {
                     + ":" + dpRec.getPort());
 
             // 6) Comparar a mensagem recebida
-            if (msgRec.equalsIgnoreCase(file1) || msgRec.equalsIgnoreCase(file2) || msgRec.equalsIgnoreCase(file3)) {
+            if (msgRec.equalsIgnoreCase(FILE)) {
                 // 6) Obter o IP e Porto de origem da mensagem
                 // getAddress(): devolve como InetAddress
                 // getPort(): devolve como int

@@ -1,5 +1,7 @@
 package pt.isec.pd.ex9.ex6;
 
+import pt.isec.pd.ex9.FicheiroByteArray;
+
 import java.io.*;
 import java.net.DatagramPacket;
 import java.net.DatagramSocket;
@@ -38,14 +40,13 @@ public class ClientUDP {
         // 5) Enviar o packet
         ds.send(dpSend);
 
-        // 6) Mostrar a mensagem recebida
         System.out.println("Downloading file '" + FILE + "'");
 
-        // 7) Criar o ficheiro e o OutputStream
+        // 6) Criar o ficheiro e o FileOutputStream
         File file = new File(PATH + FILE);
         FileOutputStream out = new FileOutputStream(file);
 
-        // 8) Receber a respota
+        // 7) Receber a respota
         DatagramPacket dpRec = new DatagramPacket(new byte[MAX_DATA], MAX_DATA);
 
         boolean stop = false;
@@ -66,7 +67,7 @@ public class ClientUDP {
                 out.write(arrayRec.getArray(),0, arrayRec.getNBytes());
         }
 
-        // 9) Fechar o socket
+        // 8) Fechar o socket
         ds.close();
     }
 }
