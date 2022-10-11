@@ -1,4 +1,3 @@
-import java.util.Scanner;
 import java.util.Arrays;
 import java.util.Random;
 
@@ -32,6 +31,7 @@ public class ficha2 {
             System.out.print(arr[i] + " ");
         System.out.println();
     }
+
 
     // esta funcao vai ao meio, e se nao estiver no meio guarda a parte que precisa
     public static boolean binRecursivo(int[] arr, int chave) {
@@ -125,7 +125,7 @@ public class ficha2 {
         if (arr[meio] < chave)
             return -meio - 2;   // chave deve ir para a direita do meio
 
-        return -meio - 1;       // chave deve ir para a esquerda do meio
+        return Math.abs(-meio - 1 + 1);       // chave deve ir para a esquerda do meio
     }
 
     public static double binPercentagem(int[] arr, int chave) {
@@ -157,11 +157,70 @@ public class ficha2 {
         return posSup - posInf;
     }    
 
+    public static boolean valorNoArray(int[] arr, int chave) {
+        int pos = binPosicao(arr, chave);
+
+        if (pos < 0)
+            return false;
+
+        if (pos == 0 && arr[pos + 1] == chave)
+            return true;
+        else if (arr.length - 1 == pos && arr[arr.length - 1] == chave)
+            return true;
+        else if (arr[pos - 1] == chave || arr[pos + 1] == chave)
+            return true;
+        
+        return false;
+    }
+
+    public static int maiorValor(int[] arr, int chave) {
+        int pos = binCmp(arr, chave);
+
+        if (pos == 0 || pos == -1)
+            return chave;
+        
+        if (pos < 0)
+            pos = -pos -1;
+
+        return arr[pos - 1];
+    }
+
+    public static boolean procuraValor(int[] arr, int chave) {
+        int start = 0, end = arr.length - 1;
+        int meio = (start + end) / 2;
+        
+        do {
+            if (arr[meio] == chave) 
+                return true;
+
+            if (arr[meio] > 0 && chave > 0) {
+                if (arr[meio] < chave) 
+                    start = meio + 1;
+                else
+                    end = meio -1;
+                meio = (start + end) / 2;   // calcula novo meio para ser testado
+            }
+            else if (arr[meio] < 0 && chave < 0) {                
+                if (arr[meio] > chave) 
+                    start = meio - 1;
+                else
+                    end = meio + 1;
+                meio = (start - end) / 2;   // calcula novo meio para ser testado
+            }
+            
+        } while(start < end);
+
+        if (arr[meio] == chave) 
+            return true;
+
+        return false;       // chave deve ir para a esquerda do meio
+    }
+
     public static void main(String[] args) throws Exception {
-        int dimensao, valor;
+        /*int dimensao, valor;
         Scanner sc = new Scanner(System.in);
 
-        /*System.out.print("Valor: ");
+        System.out.print("Valor: ");
         valor = sc.nextInt();
 
         System.out.print("\nDimensao: ");
@@ -208,9 +267,10 @@ public class ficha2 {
         // ex4 - Pesquisa e Devolve Posicao
         //--------------------------------------
         /*int [] arr = {3,7,12,15};
-        int pos = binCmp(arr, procurar);
+        int chave = 1;
+        int pos = binCmp(arr, chave);
 
-        System.out.println("Valor Procurado = " + procurar + " Resultado = " + pos); */
+        System.out.println("Valor Procurado = " + chave + " Resultado = " + pos); */
 
         //--------------------------------------
         // ex5 - Pesquisa e Devolve Percentagem
@@ -223,14 +283,48 @@ public class ficha2 {
         //--------------------------------------
         // ex6 - Pesquisa e Devolve Percentagem
         //--------------------------------------
-        int [] arr = {3,7,12,15};
+        /*int [] arr = {3,7,12,15};
         int limInf = 4, limSup = 14;
         
         int num = valoresNoIntervalo(arr,limInf,limSup);
         
-        System.out.println("Valores (" + limInf + "," + limSup + ") Resultado = " + num);
+        System.out.println("Valores (" + limInf + "," + limSup + ") Resultado = " + num); */
+
+        //------------------------------------------
+        // ex7 - Pesquisa e Devolve Valor Repetido
+        //------------------------------------------
+        /*int [] arr = {3,3,7,12,12,15};
+        int chave;
+
+        chave = 15;
+        System.out.println("Valor = " + chave +  " Resultado = " + valorNoArray(arr, chave));
+
+        chave = 14;
+        System.out.println("Valor = " + chave +  " Resultado = " + valorNoArray(arr, chave));
+
+        chave = 12;
+        System.out.println("Valor = " + chave +  " Resultado = " + valorNoArray(arr, chave));
+
+        chave = 3;
+        System.out.println("Valor = " + chave +  " Resultado = " + valorNoArray(arr, chave)); */
+
+        //------------------------------------------
+        // ex8 - Pesquisa e Devolve Max
+        //------------------------------------------
+        /*int[] arr = {3,7,12,15};
+        int chave = 15;
+
+        System.out.println("Valor = " + chave +  " Resultado = " + maiorValor(arr, chave)); */
+
+        //------------------------------------------
+        // ex9 - Procura valor no array
+        //------------------------------------------
+        int[] arr = {3,6,8, -10,-3,-2,-1};
+        int chave = 15;
+
+        System.out.println("Valor = " + chave +  " Resultado = " + procuraValor(arr, chave));
 
         // fecha o scanner
-        sc.close();
+        //sc.close();
     }
 }

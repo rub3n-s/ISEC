@@ -1,0 +1,26 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  margin-bottom: 60px;
+}
+
+.logo {
+    float: left;
+    padding: 25px 60px;
+    background-image: url('../img/logo-isec.png');
+    background-size: 100px 45px;
+    background-repeat: no-repeat;
+}
