@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<!-- 1) Alterar o ConstraintLayout para LinearLayout -->
+<!-- 2) Definir atributo para indicar a direcao (horizontal/vertical) android:orientation="vertical" -->
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="#B8FA5C"
+    tools:context=".MainActivity"
+    android:id="@+id/layout">
+
+    <TextView
+        android:id="@+id/tvTexto"
+        android:gravity="center"
+        app:autoSizeTextType="uniform"
+        app:autoSizeMinTextSize="12sp"
+        app:autoSizeMaxTextSize="24sp"
+        android:maxLines="1"
+        android:paddingTop="10dp"
+        android:paddingBottom="5dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="20dp"
+        android:background="#00ffff"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:text="AMOV P02" />
+
+    <Button
+        android:id="@+id/btOpcao1"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Opção 1" />
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#ffffa0"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btOpcao2"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Opção 2" />
+
+        <Button
+            android:id="@+id/btOpcao3"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Opção 3" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#80ffa0"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btOpcao4"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Opção 4" />
+
+        <Button
+            android:id="@+id/btOpcao5"
+            android:layout_weight="1"
+            android:padding="16dp"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Opção 5" />
+    </LinearLayout>
+
+    <!--<TextView
+        android:gravity="bottom|end"
+        android:layout_margin="16dp"
+
+        android:textColor="#000000"
+        android:textSize="24sp"
+        android:text="AMOV P02"
+        android:textStyle="bold|italic"
+        android:typeface="monospace"
+
+        android:background="#ffff00"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" /> -->
+
+</LinearLayout>

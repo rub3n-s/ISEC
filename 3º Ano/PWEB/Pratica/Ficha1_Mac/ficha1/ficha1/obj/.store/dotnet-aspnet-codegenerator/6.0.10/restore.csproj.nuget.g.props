@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <RestoreSuccess Condition=" '$(RestoreSuccess)' == '' ">True</RestoreSuccess>
+    <RestoreTool Condition=" '$(RestoreTool)' == '' ">NuGet</RestoreTool>
+    <ProjectAssetsFile Condition=" '$(ProjectAssetsFile)' == '' ">$(MSBuildThisFileDirectory)project.assets.json</ProjectAssetsFile>
+    <NuGetPackageRoot Condition=" '$(NuGetPackageRoot)' == '' ">/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha1_Mac/ficha1/ficha1/obj/.store/.stage/xyl2g0jp.xzp</NuGetPackageRoot>
+    <NuGetPackageFolders Condition=" '$(NuGetPackageFolders)' == '' ">/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha1_Mac/ficha1/ficha1/obj/.store/.stage/xyl2g0jp.xzp</NuGetPackageFolders>
+    <NuGetProjectStyle Condition=" '$(NuGetProjectStyle)' == '' ">DotnetToolReference</NuGetProjectStyle>
+    <NuGetToolVersion Condition=" '$(NuGetToolVersion)' == '' ">6.4.0</NuGetToolVersion>
+  </PropertyGroup>
+  <ItemGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <SourceRoot Include="/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha1_Mac/ficha1/ficha1/obj/.store/.stage/xyl2g0jp.xzp/" />
+  </ItemGroup>
+  <PropertyGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Pkgdotnet-aspnet-codegenerator Condition=" '$(Pkgdotnet-aspnet-codegenerator)' == '' ">/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha1_Mac/ficha1/ficha1/obj/.store/.stage/xyl2g0jp.xzp/dotnet-aspnet-codegenerator/6.0.10</Pkgdotnet-aspnet-codegenerator>
+  </PropertyGroup>
+</Project>

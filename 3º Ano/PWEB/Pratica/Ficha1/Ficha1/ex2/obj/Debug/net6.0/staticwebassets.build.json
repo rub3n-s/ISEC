@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "R/6BIjOGJ/fXGeq3qinwo+8uJbjLQ2JXq1yxTcij4Fo=",
+  "Hash": "0GVq5OOSv529/jdwgg5VWysYy25dKcM1RRLs0pe1cJM=",
   "Source": "ex2_3_4_5_6",
   "BasePath": "_content/ex2_3_4_5_6",
   "Mode": "Default",
@@ -1069,6 +1069,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "Z:\\Users\\rubensantos\\Documents\\GitHub\\ISEC\\3º Ano\\PWEB\\Pratica\\Ficha1\\Ficha1\\ex2\\obj\\Debug\\net6.0\\scopedcss\\projectbundle\\ex2_3_4_5_6.bundle.scp.css"
+    },
+    {
+      "Identity": "Z:\\Users\\rubensantos\\Documents\\GitHub\\ISEC\\3º Ano\\PWEB\\Pratica\\Ficha1\\Ficha1\\ex2\\wwwroot\\.DS_Store",
+      "SourceId": "ex2_3_4_5_6",
+      "SourceType": "Discovered",
+      "ContentRoot": "Z:\\Users\\rubensantos\\Documents\\GitHub\\ISEC\\3º Ano\\PWEB\\Pratica\\Ficha1\\Ficha1\\ex2\\wwwroot\\",
+      "BasePath": "_content/ex2_3_4_5_6",
+      "RelativePath": ".DS_Store",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\.DS_Store"
     },
     {
       "Identity": "Z:\\Users\\rubensantos\\Documents\\GitHub\\ISEC\\3º Ano\\PWEB\\Pratica\\Ficha1\\Ficha1\\ex2\\wwwroot\\css\\site.css",
