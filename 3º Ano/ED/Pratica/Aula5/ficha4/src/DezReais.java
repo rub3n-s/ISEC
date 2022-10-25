@@ -10,7 +10,7 @@ public class DezReais implements Iterable<Double> {
         lista = new ArrayList<>();
     } 
 
-    public void add(Double num) throws Exception {
+    public void add(Double num) {
         if (lista.size() >= LIMITE)
             throw new RuntimeException();
         lista.add(num);    

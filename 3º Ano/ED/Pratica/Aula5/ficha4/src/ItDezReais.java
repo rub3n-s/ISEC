@@ -12,14 +12,12 @@ public class ItDezReais implements Iterator<Double> {
         this.dr = object;
     }
 
-    @Override
     public Double next() {
         if (posUltimo + 1 >= dr.size())
             throw new NoSuchElementException();
         return dr.get(++posUltimo);
     }
 
-    @Override
     public boolean hasNext() {
         return posUltimo + 1 < dr.size();
     }
