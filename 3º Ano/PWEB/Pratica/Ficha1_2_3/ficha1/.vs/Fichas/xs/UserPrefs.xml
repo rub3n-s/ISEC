@@ -1,0 +1,29 @@
+﻿<Properties StartupConfiguration="{C5377DAB-BC07-404E-B69E-4A892A3CE46D}|Parte_IV">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.Parte__I__II__III PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.ItemProperties.Ficha3 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <DisabledProjects>
+    <String>Parte_IV - cópia/Parte_IV.csproj</String>
+  </DisabledProjects>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Parte_IV/Controllers/CursosController.cs">
+    <Files>
+      <File FileName="Parte_IV/Views/Home/Index.cshtml" />
+      <File FileName="Parte_IV/Controllers/HomeController.cs" />
+      <File FileName="Parte_IV/Controllers/CursosController.cs" Line="104" Column="152" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Fichas" expanded="True">
+            <Node name="Ficha3" selected="True" />
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>

@@ -295,7 +295,7 @@ public class ficha2 {
         System.out.println("Valor Procurado = " + procurar + " Percentagem = " + percentagem);*/
 
         //--------------------------------------
-        // ex6 - Pesquisa e Devolve Percentagem
+        // ex6 - Pesquisa Binaria Intervalo
         //--------------------------------------
         /*int [] arr = {3,7,12,15};
         int limInf = 4, limSup = 14;

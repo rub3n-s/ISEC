@@ -1,0 +1,39 @@
+﻿<Properties StartupConfiguration="{632EAFDF-8073-440D-8B4C-7B6B16EBFC3B}|Default">
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.ficha3 PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="ficha3/Controllers/CursosController.cs">
+    <Files>
+      <File FileName="ficha3/Views/Cursos/Search.cshtml" Line="4" Column="31" />
+      <File FileName="ficha3/Views/Cursos/Index.cshtml" Line="4" Column="36" />
+      <File FileName="ficha3/Controllers/CursosController.cs" Line="108" Column="19" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="fichas" expanded="True">
+            <Node name="ficha3" expanded="True">
+              <Node name="Controllers" expanded="True">
+                <Node name="CursosController.cs" selected="True" />
+              </Node>
+              <Node name="Data" expanded="True" />
+              <Node name="Models" expanded="True" />
+              <Node name="Views" expanded="True">
+                <Node name="Cursos" expanded="True" />
+                <Node name="Home" expanded="True" />
+                <Node name="Shared" expanded="True" />
+              </Node>
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+</Properties>
