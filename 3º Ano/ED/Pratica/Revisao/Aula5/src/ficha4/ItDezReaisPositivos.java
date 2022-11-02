@@ -1,11 +1,13 @@
+package ficha4;
+
 import java.util.Iterator;
 
 public class ItDezReaisPositivos implements Iterator<Double> {
     DezReaisMutavel dr;
-    private int posUltimo = -1; // indice do ultimo valor devolvido
+    private int posUltimo = -1;
 
-    public ItDezReaisPositivos(DezReaisMutavel object) {
-        this.dr = object;
+    public ItDezReaisPositivos(DezReaisMutavel dr) {
+        this.dr = dr;
     }
     
     private int nextPositiveIndex(int from) {

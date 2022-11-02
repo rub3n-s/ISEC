@@ -3,10 +3,7 @@ import java.util.NoSuchElementException;
 
 public class ItDezReais implements Iterator<Double> {
     DezReais dr;
-    Iterator<Double> it = dr.iterator();
     int posUltimo = -1; // indice do ultimo valor devolvido
-
-    boolean proximo = it.hasNext();
 
     public ItDezReais(DezReais object) {
         this.dr = object;
