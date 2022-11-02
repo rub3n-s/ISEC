@@ -1,0 +1,68 @@
+@model IEnumerable<ficha3.Models.Curso>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h1>Lista de Categorias (<a asp-action="Create">Adicionar curso</a>)</h1>
+
+<form asp-action="Index" method="get" action="Search">
+    <p>
+        Pesquisar por cursos:
+        <input type="text" name="TextoAPesquisar" dirname="TextoAPesquisar" />
+
+        <select name="CategoriaId" asp-items="ViewBag.ListadeCategorias"></select>
+
+        <input type="submit" value="Pesquisar" />
+    </p>
+</form>
+
+<p>
+    <a asp-action="Index" asp-route-disponivel="">Todos</a>
+    <a asp-action="Index" asp-route-disponivel="true">Ativos</a>
+    <a asp-action="Index" asp-route-disponivel="false">Inativos</a>
+</p>
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Id)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Disponivel)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayNameFor(model => model.Id)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(model => model.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Descricao)
+                </td>
+                <td>
+                    @Html.DisplayNameFor(model => model.Disponivel)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                    <a asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
