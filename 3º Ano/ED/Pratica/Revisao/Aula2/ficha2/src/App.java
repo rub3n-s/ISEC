@@ -281,99 +281,96 @@ public class App {
             return meio;
         return -1;
     }
-    
+
     public static void main(String[] args) throws Exception {
-        //int[] arr = criaArrayCom(5, 10, false);
+        int[] arr = criaArrayCom(5, 10, false);
 
-        //===============================
-        //  Ex1 - RECURSIVA        
-        //===============================
-        /*boolean res = binRecursivo(arr,5);
+        System.out.println("===============================\n"
+                            + "\tEx1 - RECURSIVA           \n" +
+                            "===============================");
+        boolean res = binRecursivo(arr,5);
         if (res)
             System.out.println("Existe");
         else
-            System.out.println("Nao Existe");*/
+            System.out.println("Nao Existe");
 
-        //===============================
-        //  Ex2 - ITERATIVA
-        //===============================
-        /*boolean res = binIterativo(arr,5);
+        System.out.println("\n===============================\n"
+                            + "\tEx2 - ITERATIVA           \n" +
+                            "===============================");
+        res = binIterativo(arr,5);
         if (res)
             System.out.println("Existe");
         else
-            System.out.println("Nao Existe");*/
+            System.out.println("Nao Existe");
+            
+        System.out.println("\n===============================\n"
+                            + "\tEx3 - POSICAO             \n" +
+                            "===============================");
+        System.out.println("Pos: " + binPosicao(arr,5));
 
-        //===============================
-        //  Ex3 - POSICAO    
-        //===============================
-        //System.out.println("Pos: " + binPosicao(arr,5));
-
-        //===============================
-        //  Ex4 - COMPARE
-        //===============================
-        /*int[] arr = {3,7,12,15};
-        int chave = 15;
-        System.out.println("Chave: " + chave + ", resultado: " + binCmp(arr,chave));*/
-
-        //===============================
-        //  Ex5 - Pesquisa Binaria PERCENTAGEM
-        //===============================
-        /*int[] arr = {3,7,12,15};
-        int chave = 15;
-        System.out.println("Chave: " + chave + ", resultado: " + binPercentagem(arr,chave));*/
-
-        //===============================
-        //  Ex6 - INTERVALO
-        //===============================
-        /*int [] arr = {3,7,12,15};
-        int limInf = 4, limSup = 14;
+        int[] arr2 = {3,7,12,15};
         
-        int num = valoresNoIntervalo(arr,limInf,limSup);
+        System.out.println("\n===============================\n"
+                            + "\tEx4 - COMPARE             \n" +
+                            "===============================");    
+        int chave = 15;
+        System.out.println("Chave: " + chave + ", resultado: " + binCmp(arr2,chave));
+
+        System.out.println("\n===============================\n"
+                            + "\tEx5 - PERCENTAGEM             \n" +
+                            "===============================");    
+        int chave5 = 15;
+        System.out.println("Chave: " + chave5 + ", resultado: " + binPercentagem(arr2,chave5));
+
+        System.out.println("\n===============================\n"
+                            + "\tEx6 - INTERVALO             \n" +
+                            "===============================");
+        int limInf = 4, limSup = 14;        
+        int num = valoresNoIntervalo(arr2,limInf,limSup);
         
-        System.out.println("Valores (" + limInf + "," + limSup + ") Resultado = " + num); */
+        System.out.println("Valores (" + limInf + "," + limSup + ") Resultado = " + num);
 
-        //===============================
-        //  Ex7 - VALOR REPETIDO
-        //===============================
-        /*int [] arr = {3,3,7,12,12,15};
+        System.out.println("\n===============================\n"
+                            + "\tEx7 - VALOR REPETIDO      \n" +
+                            "===============================");
+        int [] arr7 = {3,3,7,12,12,15};
 
-        int chave = 15;
-        System.out.println("Valor = " + chave + " resultado = " + valorRepetido(arr, chave));
+        int chave7_1 = 15;
+        System.out.println("Valor = " + chave7_1 + " resultado = " + valorRepetido(arr7, chave7_1));
 
-        int chave = 15;
-        System.out.println("Valor = " + chave + " resultado = " + valorRepetido(arr, chave));
+        int chave7_2 = 15;
+        System.out.println("Valor = " + chave7_2 + " resultado = " + valorRepetido(arr7, chave7_2));
 
-        int chave = 14;
-        System.out.println("Valor = " + chave + " resultado = " + valorRepetido(arr, chave));
+        int chave7_3 = 14;
+        System.out.println("Valor = " + chave7_3 + " resultado = " + valorRepetido(arr7, chave7_3));
 
-        int chave = 3;
-        System.out.println("Valor = " + chave + " resultado = " + valorRepetido(arr, chave)); */
+        int chave7_4 = 3;
+        System.out.println("Valor = " + chave7_4 + " resultado = " + valorRepetido(arr7, chave7_4));
 
-        //===============================
-        //  Ex8 - MAIOR VALOR
-        //===============================
-        /*int [] arr = {3,7,12,15};
-        int chave = 15;
-        System.out.println("Valor = " + chave + " resultado = " + maiorValor(arr, chave));*/
+        System.out.println("\n===============================\n"
+                            + "\tEx8 - MAIOR VALOR             \n" +
+                            "===============================");
+        int chave8 = 15;
+        System.out.println("Valor = " + chave8 + " resultado = " + maiorValor(arr, chave8));
 
-        //===============================
-        //  Ex9 - PROCURA VALOR
-        //===============================
-        int[] arr = {3,6,8, -10,-3,-2,-1};
-        int chave = 6;
+        System.out.println("\n===============================\n"
+                            + "\tEx9 - PROCURA VALOR       \n" +
+                            "===============================");
+        int[] arr9 = {3,6,8, -10,-3,-2,-1};
+        int chave9 = 6;
 
-        System.out.println("Valor = " + chave +  " Resultado = " + procuraValor(arr, chave));
+        System.out.println("Valor = " + chave9 +  " Resultado = " + procuraValor(arr9, chave9));
 
-        //===============================
-        //  Ex9 - DEVOLVE INDICE
-        //===============================
-        int[] arr1 = {3,7,12,15};
-        System.out.println("Resultado = " + devolveIndice(arr1));
+        System.out.println("\n===============================\n"
+                            + "\tEx10 - DEVOLVE INDICE      \n" +
+                            "===============================");
+        int[] arr10_1 = {3,7,12,15};
+        System.out.println("Resultado = " + devolveIndice(arr10_1));
 
-        int[] arr2 = {-3,1,7,12,15};
-        System.out.println("Resultado = " + devolveIndice(arr2));
+        int[] arr10_2 = {-3,1,7,12,15};
+        System.out.println("Resultado = " + devolveIndice(arr10_2));
 
-        int[] arr3 = {-15,-14,1,2,3,4};
-        System.out.println("Resultado = " + devolveIndice(arr3));
+        int[] arr10_3 = {-15,-14,1,2,3,4};
+        System.out.println("Resultado = " + devolveIndice(arr10_3));
     }   
 }
