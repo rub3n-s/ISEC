@@ -72,55 +72,43 @@ namespace ficha3.Controllers
         }
 
         // GET: Categorias
-        public async Task<IActionResult> Search(bool? disponivel, bool? emDestaque)
+        public async Task<IActionResult> Search(string? TextoAPesquisar)
         {
-            ViewData["ListadeCategorias"] = new SelectList(_context.Categorias.ToList(), "Id", "Nome");
+            PesquisaCursoViewModel pesquisaVM = new PesquisaCursoViewModel();
+            ViewData["Title"] = "Pesquisar cursos";
 
-            if (disponivel != null)
-            {
-                if (disponivel == true)
-                    ViewData["Title"] = "Lista de Cursos Disponiveis";
-                else
-                    ViewData["Title"] = "Lista de Cursos Indisponiveis";
-
-                return View(await _context.Cursos.Include("categoria").Where(c => c.Disponivel == disponivel).ToListAsync());
-                //return View(await _context.Cursos.Where(c => c.Disponivel == disponivel).ToListAsync());
-            }
-            else if (emDestaque != null)
-            {
-                if (emDestaque == true)
-                {
-                    ViewData["Title"] = "Lista de Cursos em Destaque";
-                }
-                else
-                {
-                    ViewData["Title"] = "Lista de Cursos em Destaque";
-                }
-                return View(await _context.Cursos.Include("categoria").Where(c => c.EmDestaque == emDestaque).ToListAsync());
-                //return View(await _context.Cursos.Where(c => c.EmDestaque == emDestaque).ToListAsync());
-            }
+            if (string.IsNullOrEmpty(TextoAPesquisar))
+                pesquisaVM.ListaDeCursos = await _context.Cursos.ToListAsync();
             else
             {
-                return View(await _context.Cursos.ToListAsync());
+                pesquisaVM.ListaDeCursos = await _context.Cursos.Where(c => c.Nome.Contains(TextoAPesquisar)).ToListAsync();
+                pesquisaVM.TextoAPesquisar = TextoAPesquisar;
             }
+            pesquisaVM.NumResultados = pesquisaVM.ListaDeCursos.Count();
+
+            return View(pesquisaVM);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Search(string TextoAPesquisar, int CategoriaId)
+        public async Task<IActionResult> Search([Bind("TextoAPesquisar")] PesquisaCursoViewModel pesquisaCurso)
         {
-            ViewData["ListadeCategorias"] = new SelectList(_context.Categorias.ToList(), "Id", "Nome");
+            //ViewData["ListadeCategorias"] = new SelectList(_context.Categorias.ToList(), "Id", "Nome");
 
-            if (string.IsNullOrWhiteSpace(TextoAPesquisar))
-                return View(_context.Cursos.Where(c => c.CategoriaId == CategoriaId));
+            ViewData["Title"] = "Pesquisar cursos";
+            if (string.IsNullOrEmpty(pesquisaCurso.TextoAPesquisar))
+            {
+
+                pesquisaCurso.ListaDeCursos = await _context.Cursos.ToListAsync();
+                pesquisaCurso.NumResultados = pesquisaCurso.ListaDeCursos.Count();
+            }
             else
             {
-                var resultado = from c in _context.Cursos
-                                where c.Nome.Contains(TextoAPesquisar) && c.CategoriaId == CategoriaId
-                                select c;
-                return View(resultado);
+                pesquisaCurso.ListaDeCursos = await _context.Cursos.Where(c => c.Nome.Contains(pesquisaCurso.TextoAPesquisar)).ToListAsync();
+                pesquisaCurso.NumResultados = pesquisaCurso.ListaDeCursos.Count();
             }
-            return View();
+
+            return View(pesquisaCurso);
         }
 
         // GET: Cursos/Details/5

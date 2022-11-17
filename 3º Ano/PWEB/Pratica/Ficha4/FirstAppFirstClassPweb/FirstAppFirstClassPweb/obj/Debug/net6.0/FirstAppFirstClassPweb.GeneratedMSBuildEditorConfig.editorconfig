@@ -1,0 +1,165 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = FirstAppFirstClassPweb
+build_property.RootNamespace = FirstAppFirstClassPweb
+build_property.ProjectDir = /Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Agendamento/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmRhbWVudG8vQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Agendamento/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmRhbWVudG8vRGVsZXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Agendamento/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmRhbWVudG8vRGV0YWlscy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Agendamento/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmRhbWVudG8vRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Agendamento/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmRhbWVudG8vSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Categorias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Categorias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Categorias/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Categorias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Categorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Cursos/Activos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL0FjdGl2b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Cursos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Cursos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Cursos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Cursos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Cursos/Inactivos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL0luYWN0aXZvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Cursos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Cursos/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL1NlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Cursos/Todos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL1RvZG9zLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Home/Contacts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db250YWN0cy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Home/Cursos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9DdXJzb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Home/QuemSomos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9RdWVtU29tb3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/QuickSearchPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUXVpY2tTZWFyY2hQYXJ0aWFsLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/TipoDeAula/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGlwb0RlQXVsYS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/TipoDeAula/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGlwb0RlQXVsYS9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/TipoDeAula/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGlwb0RlQXVsYS9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/TipoDeAula/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGlwb0RlQXVsYS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/TipoDeAula/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVGlwb0RlQXVsYS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-olag5txp62

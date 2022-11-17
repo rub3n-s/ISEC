@@ -1,0 +1,107 @@
+﻿@model IEnumerable<FirstAppFirstClassPweb.Models.Curso>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+<h1>Lista de Cursos (<a asp-action="Create">adicionar</a>) </h1>
+
+<div class="row">
+    <div class="col-3">
+        <a asp-action="Index" asp-route-disponivel="true">Todos</a>
+        <t>|</t>
+        <a asp-action="Activos" asp-route-disponivel="true">Activos</a>
+        <t>|</t>
+        <a asp-action="Inactivos" asp-route-disponivel="false">Inactivos</a>
+    </div>
+    <div class="col-9">
+        <form method="post">
+            <label for="fname">Pesquisa de Curso:</label>
+            <input type="text" name="pesquisa" id="fname" placeholder="Categoria A">
+            <input type="submit" value="Pesquisar">
+        </form>
+    </div>
+
+</div>
+
+<p></p>
+
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Disponivel)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.categoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Descricao)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DescricaoResumida)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Requisitos)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IdadeMinima)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Preco)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CategoriaId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.EmDestaque)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Disponivel)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.categoria.Nome)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Descricao)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DescricaoResumida)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Requisitos)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IdadeMinima)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Preco)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.categoria.Id)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.EmDestaque)
+            </td>
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
+                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
+                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

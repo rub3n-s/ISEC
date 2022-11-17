@@ -1,0 +1,8 @@
+1) Terminal:
+    - lançar o rmiregistry na pasta raiz onde existem os .class - pasta com o nome do projeto)
+        - out > production > pasta_nome_proj > abrir terminal
+            - lançar comando: rmiregistry
+                              rmiregistry 1095 (por exemplo: se pretender um porto que nao o default "1099")
+
+2) Configurar JVM - Server:
+    - Modify options > Add VM Options > VM Options > -Djava.rmi.server.hostname=127.0.0.1

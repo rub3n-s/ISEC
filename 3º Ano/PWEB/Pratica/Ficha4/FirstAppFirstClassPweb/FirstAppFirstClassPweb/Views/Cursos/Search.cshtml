@@ -1,0 +1,136 @@
+﻿    @model FirstAppFirstClassPweb.ViewModel.PesquisaCursoViewModel
+    @{
+        ViewData["Title"] = "Search";
+        Layout = "~/Views/Shared/_Layout2.cshtml";
+    }
+
+    <h1>Os nossos cursos</h1>
+    <!--<div class="row">
+
+        <div class="col-3">
+            <a asp-action="Index" asp-route-disponivel="true">Todos</a>
+            <t>|</t>
+            <a asp-action="Activos" asp-route-disponivel="true">Activos</a>
+            <t>|</t>
+            <a asp-action="Inactivos" asp-route-disponivel="false">Inactivos</a>
+        </div>
+        <div class="col-9">
+            <form method="post" asp-action="Search" asp-controller="Cursos">
+                <label for="fname">Pesquisa de Curso:</label>
+                <input asp-for="TextoAPesquisar">
+                //<select name="CategoriaId" asp-items="ViewBag.ListaDeCategorias"></select>
+                <input type="submit" value="Pesquisar">
+            </form>
+
+        </div>
+    </div> -->
+
+    @if (!string.IsNullOrEmpty(Model.TextoAPesquisar))
+    {
+        <p>Resultado da pesquisa por "@Model.TextoAPesquisar"</p>
+        @if (Model.NumResultados == 0)
+        {
+            <p class="alert alert-warning">
+                Não foi possivel encontra cursos com os dados introduzidos.
+                Por favor, reveja a sua pesquisa
+            </p>
+        }
+    }
+    else
+    {
+        <p>Existem(m) @Model.NumResultados curso(s) disponiveis.</p>
+    }
+
+    <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
+        @foreach (Curso c in Model.ListaDeCursos)
+        {
+            <div class="col">
+                <div class="card mb-4 rounded-3 shadow-sm">
+                    <div class"card-header py-3">
+                        @if (string.IsNullOrEmpty(Model.TextoAPesquisar))
+                        {
+                            <h4 class="my-0 fw-normal">
+                                @Html.DisplayFor(model => c.Nome)
+                                (
+                                @Html.DisplayFor(model=>c.categoria.Nome)
+                                )
+                            </h4>
+                        }
+                        else
+                        {
+                            <h4 class="my-0 fw-normal"> <!-- utilizado para criar os destaques na pesquisa-->
+                                @Html.Raw(
+                                   c.Nome.ToString().ToLower().Replace(
+                                       Model.TextoAPesquisar.ToLower(),
+                                       "<span class=\"btn-warning\">" + Model.TextoAPesquisar + "</span>")
+                               )
+
+                                (@Html.DisplayFor(model=>c.categoria.Nome))
+                            </h4>
+                        }
+                    </div>
+                    <div class="card-body">
+                        <h1 class="card-title pricing-card-title">€ @c.Preco <small class="text-muted fw-light"></small></h1>
+                        @if (string.IsNullOrEmpty(Model.TextoAPesquisar))
+                        {
+                            <p>@Html.DisplayFor(model=>c.DescricaoResumida)</p> 
+                        }
+                        else
+                        {
+                                <p>
+                                    @Html.Raw(c.DescricaoResumida.ToString().ToLower().Replace(
+                                        Model.TextoAPesquisar.ToLower(),
+                                        "<span class=\"bg-warning\">" + Model.TextoAPesquisar + "</span>")
+                                    )
+                                </p>
+                        }
+
+                        <a asp-controller="Cursos" asp-action="Details" asp-route-id="@c.Id"
+                           class="w-100 btn btn-lg btn-outline-primary">Saber mais</a>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+    @*<p></p>
+    <p>Existe @Model.NumResultados cursos</p>
+    <table class="table table-bordered table-striped table-hover">
+        <thead>
+            <tr>
+                <th>
+
+                    @Html.DisplayNameFor(model => model.ListaDeCursos.FirstOrDefault().Nome)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ListaDeCursos.FirstOrDefault().Disponivel)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.ListaDeCursos.FirstOrDefault().categoria)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model.ListaDeCursos)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Nome)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Disponivel)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.categoria.Nome)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Editar</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Detalhes</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Apagar</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>*@
+

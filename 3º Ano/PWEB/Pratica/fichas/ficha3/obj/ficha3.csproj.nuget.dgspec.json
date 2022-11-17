@@ -1,0 +1,92 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/fichas/ficha3/ficha3.csproj": {}
+  },
+  "projects": {
+    "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/fichas/ficha3/ficha3.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/fichas/ficha3/ficha3.csproj",
+        "projectName": "ficha3",
+        "projectPath": "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/fichas/ficha3/ficha3.csproj",
+        "packagesPath": "/Users/rubensantos/.nuget/packages/",
+        "outputPath": "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/fichas/ficha3/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/rubensantos/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.Extensions.Identity.Core": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            },
+            "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
+              "target": "Package",
+              "version": "[6.0.10, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.100-rc.2.22477.23/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

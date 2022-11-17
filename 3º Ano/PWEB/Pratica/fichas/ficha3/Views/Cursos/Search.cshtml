@@ -7,16 +7,25 @@
 
 <h1>Lista de Categorias (<a asp-action="Create">Adicionar curso</a>)</h1>
 
-<form asp-action="Index" method="get" action="Search">
-    <p>
-        Pesquisar por cursos:
-        <input type="text" name="TextoAPesquisar" dirname="TextoAPesquisar" />
+<div class="row">
+    <div col="3">
+        <a asp-action="Index" asp-route-disponivel="">Todos</a>
+        <a asp-action="Index" asp-route-disponivel="true">Ativos</a>
+        <a asp-action="Index" asp-route-disponivel="false">Inativos</a>
+    </div>
+    <div col="6">
+        <form method="post">
+            <p>
+                Pesquisar por cursos:
+                <input type="text" name="TextoAPesquisar" dirname="TextoAPesquisar" />
 
-        <select name="CategoriaId" asp-items="ViewBag.ListadeCategorias"></select>
+                <select name="CategoriaId" asp-items="ViewBag.ListadeCategorias"></select>
 
-        <input type="submit" value="Pesquisar" />
-    </p>
-</form>
+                <input type="submit" value="Pesquisar" />
+            </p>
+        </form>
+    </div>
+</div>
 
 <p>
     <a asp-action="Index" asp-route-disponivel="">Todos</a>

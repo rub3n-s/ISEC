@@ -5,20 +5,28 @@
     Layout = "~/Views/Shared/_Layout2.cshtml";
 }
 
-<h1>Lista de Cursos (<a asp-action="Create">Adicionar curso</a>)</h1>
+<h1>Lista de Cursos (<a asp-action="Create">Adicionar</a>)</h1>
 
-<form method="post" action="Search">
-    <p>
-        Pesquisar por cursos: <input type="text" name="SearchString" />
-        <input type="submit" value="Pesquisar" class="btn btn-secondary" />
-    </p>
-</form>
+<div class="row">
+    <div col="3">
+        <a asp-action="Index" asp-route-disponivel="">Todos</a>
+        <a asp-action="Index" asp-route-disponivel="true">Ativos</a>
+        <a asp-action="Index" asp-route-disponivel="false">Inativos</a>
+    </div>
+    <div col="6">
+        <form method="post">
+            <p>
+                Pesquisar por cursos:
+                <input type="text" name="TextoAPesquisar" dirname="TextoAPesquisar" />
 
-<p>
-    <a asp-action="Index" asp-route-disponivel="">Todos</a>
-    <a asp-action="Index" asp-route-disponivel="true">Ativos</a>
-    <a asp-action="Index" asp-route-disponivel="false">Inativos</a>
-</p>
+                <select name="CategoriaId" asp-items="ViewBag.ListadeCategorias"></select>
+
+                <input type="submit" value="Pesquisar" />
+            </p>
+        </form>
+    </div>
+</div>
+
 <table class="table table-bordered table-striped table-hover">
     <thead>
         <tr>
