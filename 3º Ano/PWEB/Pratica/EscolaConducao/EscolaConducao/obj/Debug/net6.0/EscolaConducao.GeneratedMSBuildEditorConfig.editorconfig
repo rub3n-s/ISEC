@@ -1,0 +1,189 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = EscolaConducao
+build_property.RootNamespace = EscolaConducao
+build_property.ProjectDir = /Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Areas/Identity/Pages/Account/Login.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9Mb2dpbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Areas/Identity/Pages/Account/Manage/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Areas/Identity/Pages/Account/Manage/_ManageNav.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX01hbmFnZU5hdi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Areas/Identity/Pages/Account/Manage/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9NYW5hZ2UvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Areas/Identity/Pages/Account/Register.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9SZWdpc3Rlci5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Areas/Identity/Pages/Account/_StatusMessage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fU3RhdHVzTWVzc2FnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Areas/Identity/Pages/Account/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvQWNjb3VudC9fVmlld0ltcG9ydHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Areas/Identity/Pages/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZhbGlkYXRpb25TY3JpcHRzUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Areas/Identity/Pages/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Areas/Identity/Pages/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = QXJlYXMvSWRlbnRpdHkvUGFnZXMvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Agendamentos/Confirmacao.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmRhbWVudG9zL0NvbmZpcm1hY2FvLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Agendamentos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmRhbWVudG9zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Agendamentos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmRhbWVudG9zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Agendamentos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmRhbWVudG9zL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Agendamentos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmRhbWVudG9zL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Agendamentos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmRhbWVudG9zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Agendamentos/OsMeusAgendamentos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmRhbWVudG9zL09zTWV1c0FnZW5kYW1lbnRvcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Agendamentos/Pedido.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQWdlbmRhbWVudG9zL1BlZGlkby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Categorias/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Categorias/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9EZWxldGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Categorias/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Categorias/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Categorias/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcmlhcy9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Cursos/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL0NyZWF0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Cursos/Delete.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL0RlbGV0ZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Cursos/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL0RldGFpbHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Cursos/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL0VkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Cursos/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL0luZGV4LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Cursos/Search.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ3Vyc29zL1NlYXJjaC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Home/Contactos.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Db250YWN0b3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/RoleManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvUm9sZU1hbmFnZXIvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Shared/QuickSearchPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL1F1aWNrU2VhcmNoUGFydGlhbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Shared/_Layout2.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQyLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Shared/_LoginPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19Mb2dpblBhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/UserRolesManager/Details.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclJvbGVzTWFuYWdlci9EZXRhaWxzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/UserRolesManager/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlclJvbGVzTWFuYWdlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/EscolaConducao/EscolaConducao/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-90mdszyaau

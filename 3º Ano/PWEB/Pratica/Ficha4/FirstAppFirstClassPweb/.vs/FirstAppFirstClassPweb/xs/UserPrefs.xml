@@ -1,22 +1,33 @@
 ﻿<Properties StartupConfiguration="{BE5AE30B-F26E-47D6-B1C0-308D66C40BF2}|Default">
-  <MonoDevelop.Ide.ItemProperties.FirstAppFirstClassPweb PreferredExecutionTarget="/Applications/Google Chrome.app" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.Workbench ActiveDocument="FirstAppFirstClassPweb/appsettings.json">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="FirstAppFirstClassPweb/Controllers/CursosController.cs">
     <Files>
-      <File FileName="FirstAppFirstClassPweb/Models/Agendamento.cs" />
-      <File FileName="FirstAppFirstClassPweb/Data/ApplicationDbContext.cs" />
-      <File FileName="FirstAppFirstClassPweb/Models/TipoDeAula.cs" />
-      <File FileName="FirstAppFirstClassPweb/Controllers/CursosController.cs" />
-      <File FileName="FirstAppFirstClassPweb/Migrations/20221111132619_ForthMigration.cs" />
-      <File FileName="FirstAppFirstClassPweb/Controllers/TipoDeAulaController.cs" />
-      <File FileName="FirstAppFirstClassPweb/Controllers/AgendamentoController.cs" />
-      <File FileName="FirstAppFirstClassPweb/appsettings.json" Line="3" Column="131" />
+      <File FileName="FirstAppFirstClassPweb/Data/ApplicationDbContext.cs" Line="18" Column="1" IsPinned="True" />
+      <File FileName="FirstAppFirstClassPweb/Models/ApplicationUser.cs" />
       <File FileName="FirstAppFirstClassPweb/Program.cs" />
+      <File FileName="FirstAppFirstClassPweb/Views/Shared/_LoginPartial.cshtml" />
+      <File FileName="FirstAppFirstClassPweb/Areas/Identity/Pages/_ViewStart.cshtml" />
+      <File FileName="FirstAppFirstClassPweb/Views/Shared/_Layout.cshtml" />
+      <File FileName="FirstAppFirstClassPweb/Views/QuickSearchPartial.cshtml" />
+      <File FileName="FirstAppFirstClassPweb/Controllers/CategoriasController.cs" />
+      <File FileName="FirstAppFirstClassPweb/Models/Categoria.cs" />
+      <File FileName="FirstAppFirstClassPweb/Views/Categorias/Create.cshtml" />
+      <File FileName="FirstAppFirstClassPweb/Models/Curso.cs" />
+      <File FileName="FirstAppFirstClassPweb/appsettings.json" />
+      <File FileName="FirstAppFirstClassPweb/Migrations/20221104125256_FirstMigration.cs" />
+      <File FileName="FirstAppFirstClassPweb/Migrations/20221104114729_Migration1.cs" />
+      <File FileName="FirstAppFirstClassPweb/Views/Categorias/Index.cshtml" />
+      <File FileName="FirstAppFirstClassPweb/Views/Shared/_Layout2.cshtml" />
+      <File FileName="FirstAppFirstClassPweb/Views/Home/Index.cshtml" />
+      <File FileName="FirstAppFirstClassPweb/Views/Categorias/Edit.cshtml" />
+      <File FileName="FirstAppFirstClassPweb/Controllers/CursosController.cs" Line="1" Column="1" />
+      <File FileName="FirstAppFirstClassPweb/Controllers/HomeController.cs" />
       <File FileName="FirstAppFirstClassPweb/Migrations/20221111130435_SecondMigration.cs" />
+      <File FileName="FirstAppFirstClassPweb/Migrations/20221111130624_ThirdMigration.Designer.cs" />
+      <File FileName="FirstAppFirstClassPweb/Controllers/AgendamentoController.cs" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -24,23 +35,28 @@
           <Node name="FirstAppFirstClassPweb" expanded="True">
             <Node name="FirstAppFirstClassPweb" expanded="True">
               <Node name="Dependencies" expanded="True">
-                <Node name="FrameworkReferences" expanded="True" />
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
-              <Node name="Controllers" expanded="True" />
+              <Node name="Controllers" expanded="True">
+                <Node name="CursosController.cs" selected="True" />
+              </Node>
               <Node name="Data" expanded="True" />
-              <Node name="Migrations" expanded="True" />
+              <Node name="Migrations" expanded="True">
+                <Node name="20221111130624_ThirdMigration.cs" expanded="True" />
+              </Node>
               <Node name="Models" expanded="True" />
               <Node name="ViewModels" expanded="True" />
               <Node name="Views" expanded="True">
+                <Node name="Categorias" expanded="True" />
                 <Node name="Shared" expanded="True" />
               </Node>
-              <Node name="appsettings.json" selected="True" />
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.ItemProperties.FirstAppFirstClassPweb PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
 </Properties>

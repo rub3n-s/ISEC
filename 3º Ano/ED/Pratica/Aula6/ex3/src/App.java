@@ -37,7 +37,6 @@ public class App {
 
         System.out.println("Tempo de execução médio " + nruns + "execuções (ms)");
         System.out.println("N | ArrayList | LinkedList");
-        writer.
 
         for (int i = 1; i <= 30; i++) {
             // tamanho do pacote de dados a meter neste ciclo

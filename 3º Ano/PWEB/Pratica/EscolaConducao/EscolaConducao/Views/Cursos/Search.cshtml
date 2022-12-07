@@ -1,0 +1,113 @@
+﻿@model EscolaConducao.Models.PesquisaCursoViewModel
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Views/Shared/_Layout2.cshtml";
+}
+
+
+<h1>
+    @ViewData["Title"]
+    <small>(<a asp-action="Create">adicionar</a>)</small>
+</h1>
+
+<form asp-controller="Cursos" asp-action="Search">
+    <label for="fname">Pesquisa de cursos:</label>
+    <input type="text" name="textoAPesquisar" id="textoAPesquisar" placeholder="texto a procurar" />
+    <input type="submit" value="Pesquisar" />    
+</form>
+<p>
+    <a asp-action="Index">Todos</a> |
+    <a asp-action="Index" asp-route-disponivel="true">Activos</a> |
+    <a asp-action="Index" asp-route-disponivel="false">Inativos</a>
+</p>
+@if (Model.NumResultados == 0)
+{
+    <p class="alert alert-warning">
+        Não foi possível
+        encontrar cursos com os dados introduzidos.
+        Por favor, reveja a sua pesquisa
+    </p>
+}
+else
+{
+    foreach (var curso in Model.ListaDeCursos)
+    {
+        <div class="col">
+            <div class="card mb-4 rounded-3 shadow-sm">
+                <div class="card-header py-3">
+                    <h4 class="my-0 fw-normal">
+                        @if(string.IsNullOrWhiteSpace(Model.TextoAPesquisar)) {
+                            @curso.Nome
+                        } else {
+                            @Html.Raw(curso.Nome.Replace(
+                                Model.TextoAPesquisar,
+                                "<span class=\"bg-warning\">"+Model.TextoAPesquisar+"</span>"
+                            ))
+                        }
+                    </h4>
+                </div>
+                <div class="card-body">
+                    <h1 class="card-title pricing-card-title">
+                        €@Html.DisplayFor(item => curso.Preco)
+                        <small class="text-muted fw-light">
+                            @if (string.IsNullOrWhiteSpace(Model.TextoAPesquisar))
+                            {
+                                @curso.DescricaoResumida
+                            }
+                            else
+                            {
+                                @Html.Raw(curso.DescricaoResumida.Replace(
+                                    Model.TextoAPesquisar,
+                                    "<span class=\"bg-warning\">"+Model.TextoAPesquisar+"</span>"
+                                ))
+                            }
+                        </small>
+                    </h1>
+                    <button type="button" class="w-100 btn btn-lg btn-outline-primary">
+                        <a asp-controller="Cursos" asp-action="Details" asp-route-id="@curso.Id">Saber mais</a>
+                    </button>
+                </div>
+            </div>
+        </div>
+    }
+}
+<!--
+<table class="table table-bordered table-striped table-hover">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.ListaDeCursos.ElementAt(0).Categoria)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ListaDeCursos.ElementAt(0).Nome)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.ListaDeCursos.ElementAt(0).Disponivel)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var curso in Model.ListaDeCursos)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(cursos => curso.Categoria.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(cursos => curso.Nome)
+                </td>
+                <td>
+                    @Html.DisplayFor(cursos => curso.Disponivel)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@curso.Id">Editar</a> |
+                    <a asp-action="Details" asp-route-id="@curso.Id">Detalhes</a> |
+                    <a asp-action="Delete" asp-route-id="@curso.Id">Apagar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+-->

@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets/FirstAppFirstClassPweb.bundle.scp.css"
     },
     {
+      "Id": "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/wwwroot/.DS_Store",
+      "PackagePath": "staticwebassets/.DS_Store"
+    },
+    {
       "Id": "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/wwwroot/css/carousel.css",
       "PackagePath": "staticwebassets/css/carousel.css"
     },
@@ -17,6 +21,10 @@
       "PackagePath": "staticwebassets/favicon.ico"
     },
     {
+      "Id": "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/wwwroot/img/.DS_Store",
+      "PackagePath": "staticwebassets/img/.DS_Store"
+    },
+    {
       "Id": "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/wwwroot/img/banner_01.jpg",
       "PackagePath": "staticwebassets/img/banner_01.jpg"
     },
@@ -27,18 +35,6 @@
     {
       "Id": "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/wwwroot/img/banner_03.jpg",
       "PackagePath": "staticwebassets/img/banner_03.jpg"
-    },
-    {
-      "Id": "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/wwwroot/img/banner_04.jpg",
-      "PackagePath": "staticwebassets/img/banner_04.jpg"
-    },
-    {
-      "Id": "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/wwwroot/img/banner_05.jpg",
-      "PackagePath": "staticwebassets/img/banner_05.jpg"
-    },
-    {
-      "Id": "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/wwwroot/img/banner_06.jpg",
-      "PackagePath": "staticwebassets/img/banner_06.jpg"
     },
     {
       "Id": "/Users/rubensantos/Documents/GitHub/ISEC/3º Ano/PWEB/Pratica/Ficha4/FirstAppFirstClassPweb/FirstAppFirstClassPweb/wwwroot/img/logo-isec.png",
