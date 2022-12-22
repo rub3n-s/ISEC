@@ -25,4 +25,6 @@
     <string name="btn_choose_image">Escolher imagem</string>
     <string name="btn_take_photo">Tirar fotografia</string>
     <string name="msg_no_image">Não existe imagem definida</string>
+    <string name="msg_choose_history">Choose a Sketch:</string>
+    <string name="msg_no_sketches">No sketches found</string>
 </resources>

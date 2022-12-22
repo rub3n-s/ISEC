@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="360.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.isec.pd.client.gui.view.ManageShowsForm">
+   <Button fx:id="insertShowsButton" layoutX="99.0" layoutY="121.0" mnemonicParsing="false" style="-fx-background-color: #000000;" text="Adicionar" textFill="WHITE" />
+   <Button fx:id="removeButton" layoutX="100.0" layoutY="193.0" mnemonicParsing="false" style="-fx-background-color: #000000;" text="Remover" textFill="WHITE" />
+   <TextField fx:id="filePath" layoutX="57.0" layoutY="155.0" />
+   <Label fx:id="result" alignment="CENTER" layoutY="328.0" prefHeight="25.0" prefWidth="640.0" textAlignment="CENTER" />
+   <Button fx:id="retrocederButton" layoutX="16.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Voltar Atrás" textAlignment="CENTER" underline="true" />
+   <ListView fx:id="list" layoutX="320.0" layoutY="57.0" prefHeight="271.0" />
+   <Button fx:id="handleVisibilityButton" layoutX="80.0" layoutY="228.0" mnemonicParsing="false" style="-fx-background-color: #000000;" text="Gerir visivilidade" textFill="WHITE" />
+   <Label layoutX="376.0" layoutY="21.0" text="Espetáculos">
+      <font>
+         <Font name="Consolas Bold" size="30.0" />
+      </font>
+   </Label>
+</AnchorPane>

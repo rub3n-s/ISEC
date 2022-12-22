@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="../build/PWEB-AulasP-2223.props" />
+</Project>

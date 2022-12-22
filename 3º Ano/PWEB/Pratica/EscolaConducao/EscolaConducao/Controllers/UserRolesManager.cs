@@ -75,8 +75,8 @@ namespace EscolaConducao.Controllers
 
             if (user == null)
             {
-                ViewBag.ErrorMessage = $"Utilizador com o id = {userId} não encontrado.";
-                //return View("NotFound");
+                ModelState.AddModelError("", $"Utilizador com o id = {userId} não encontrado.");
+                return View();
             }
 
             ViewBag.UserName = user.UserName;
@@ -106,7 +106,6 @@ namespace EscolaConducao.Controllers
         public async Task<IActionResult> Details(List<ManageUserRolesViewModel> model, string userId)
         {
             var user = await _userManager.FindByIdAsync(userId);
-
             if (user == null)
             {
                 return View();
@@ -119,11 +118,17 @@ namespace EscolaConducao.Controllers
                 ModelState.AddModelError("", "Unable to remove existing roles.");
                 return View();
             }
-            await _userManager.AddToRolesAsync(user,
+            
+            result = await _userManager.AddToRolesAsync(user,
                 model
                 .Where(r => r.Selected)
                 .Select(r => r.RoleName));
-
+            if (!result.Succeeded)
+            {
+                ModelState.AddModelError("", "Não é possivel adicionar esta Role a este utilizador.");
+                return View();
+            }
+            
             return RedirectToAction("Index");
         }
     }

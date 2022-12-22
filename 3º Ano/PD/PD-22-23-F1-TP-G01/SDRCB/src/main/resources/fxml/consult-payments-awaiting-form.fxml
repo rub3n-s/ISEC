@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane fx:id="pane" prefHeight="360.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.isec.pd.client.gui.view.ConsultPaymentsAwaitingForm">
+   <children>
+         <Button fx:id="cancelButton" layoutX="16.0" layoutY="13.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Voltar Atrás" textAlignment="CENTER" underline="true" />
+         <ListView fx:id="list" layoutX="36.0" layoutY="58.0" prefHeight="245.0" prefWidth="568.0" />
+         <Button fx:id="payButton" layoutX="331.0" layoutY="315.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="75.0" style="-fx-background-color: #00bf00; -fx-text-fill: #ffffff;" text="Pagar" />
+         <Label layoutX="201.0" layoutY="19.0" text="Reservas não pagas" textAlignment="CENTER">
+            <font>
+               <Font name="System Bold" size="26.0" />
+            </font>
+         </Label>
+      <Button fx:id="deleteResButton" layoutX="234.0" layoutY="315.0" mnemonicParsing="false" prefHeight="27.0" prefWidth="75.0" style="-fx-background-color: f90000; -fx-text-fill: ffffff;" text="Eliminar" />
+   </children>
+</AnchorPane>

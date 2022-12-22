@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane fx:id="pane" prefHeight="360.0" prefWidth="640.0" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="pt.isec.pd.client.gui.view.SelectShows">
+   <ListView fx:id="list" layoutX="22.0" layoutY="43.0" prefHeight="298.0" prefWidth="603.0" />
+   <Button fx:id="cancelButton" layoutX="14.0" layoutY="14.0" mnemonicParsing="false" style="-fx-background-color: transparent;" text="Voltar Atrás" textAlignment="CENTER" underline="true" />
+</AnchorPane>

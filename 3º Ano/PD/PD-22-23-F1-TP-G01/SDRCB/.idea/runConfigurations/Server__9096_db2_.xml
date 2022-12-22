@@ -1,0 +1,18 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="Server [9096 db2]" type="Application" factoryName="Application">
+    <option name="ALTERNATIVE_JRE_PATH" value="openjdk-19" />
+    <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
+    <option name="MAIN_CLASS_NAME" value="pt.isec.pd.server.Main" />
+    <module name="SDRCB" />
+    <option name="PROGRAM_PARAMETERS" value="9096 databases/db2.db" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="pt.isec.pd.shared_data.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>

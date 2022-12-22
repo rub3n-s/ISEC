@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Pratica/Aula1/Aula1.iml" filepath="$PROJECT_DIR$/Pratica/Aula1/Aula1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica/Aula2/Aula2.iml" filepath="$PROJECT_DIR$/Pratica/Aula2/Aula2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica/Aula3/Aula3.iml" filepath="$PROJECT_DIR$/Pratica/Aula3/Aula3.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica/Aula4/Aula4.iml" filepath="$PROJECT_DIR$/Pratica/Aula4/Aula4.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica/Aula5/src/Aula5.iml" filepath="$PROJECT_DIR$/Pratica/Aula5/src/Aula5.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica/Aula5/Aula51.iml" filepath="$PROJECT_DIR$/Pratica/Aula5/Aula51.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica/Aula6/Aula6.iml" filepath="$PROJECT_DIR$/Pratica/Aula6/Aula6.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica/Aula7/Aula7.iml" filepath="$PROJECT_DIR$/Pratica/Aula7/Aula7.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica/Aula8/Aula8.iml" filepath="$PROJECT_DIR$/Pratica/Aula8/Aula8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica/Aula9/Aula9.iml" filepath="$PROJECT_DIR$/Pratica/Aula9/Aula9.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/PD.iml" filepath="$PROJECT_DIR$/.idea/PD.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica/Pratica.iml" filepath="$PROJECT_DIR$/Pratica/Pratica.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Pratica/Revisao/Revisao.iml" filepath="$PROJECT_DIR$/Pratica/Revisao/Revisao.iml" />
+    </modules>
+  </component>
+</project>
