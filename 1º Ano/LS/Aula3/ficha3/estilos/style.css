@@ -204,6 +204,16 @@ Estilos para cartas
   transition: transform 0.4s;
 }
 
+/*.card:hover {
+  border: 2px solid var(--globalColor);
+  box-shadow: var(--boxshadow0);
+} */
+
+.cardHover {
+  border: 2px solid var(--globalColor);
+  box-shadow: var(--boxshadow0);
+}
+
 .card:active {
   transform: scale(0.97);
   transition: transform 0.2s;
