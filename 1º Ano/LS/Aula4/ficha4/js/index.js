@@ -162,6 +162,13 @@ async function checkPlay() {
         points++; 
         pointsLbl.textContent = points;        
        
+        flippedCards.forEach(card => {
+            card.classList.add('inative');
+
+            let card_front = card.querySelector('.card-front');
+            card_front.classList.add('grayscale');
+        });
+
         // Method 1: Counting cards
         totalFlippedCards+=2;
         if (gameOver()) stopGame();
@@ -171,13 +178,6 @@ async function checkPlay() {
         pairsLeft--;
         if (pairsLeft == 0) levelCompleted();   // level completed, start a new level
         */
-
-        flippedCards.forEach(card => {
-            card.classList.add('inative');
-
-            let card_front = card.querySelector('.card-front');
-            card_front.classList.add('grayscale');
-        });
 
         console.log('Iguais');  // log purpose only
     }
