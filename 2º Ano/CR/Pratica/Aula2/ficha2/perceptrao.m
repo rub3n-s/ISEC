@@ -18,6 +18,8 @@ w1 = rand();
 w2 = rand();
 w0 = rand();
 
+log_op = 'AND';
+
 %output de cada operação lógica
 %a variavel 's' contem apenas informacao para criar o grafico
 switch log_op
