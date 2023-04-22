@@ -1,6 +1,5 @@
 'use strict';
 
-
 /*-------------------------
 listener para fechar as janelas modais
 -------------------------*/
