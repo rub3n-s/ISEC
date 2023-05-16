@@ -8,13 +8,16 @@ function App() {
 
   const handleGameStart = () => (gameStarted === true ? setGameStarted(false) : setGameStarted(true));
 
-  const handleLevelChange = (level) => setSelectedLevel(level);
+  const handleLevelChange = (event) => {
+    const { value } = event.currentTarget;
+    setSelectedLevel(value);
+  };
 
   return (
     <div id="container">
       <Header />
       <div className="main-content">
-        <ControlPanel 
+        <ControlPanel
           gameStarted={gameStarted}
           onGameStart={handleGameStart}
           selectedLevel={selectedLevel}
