@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="9a069282-6a9b-4bdd-8949-01f74538a011" name="Changes" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="27hSrbzGovzLhzRFfqnPzrQo0jP" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="ToolWindowRun.ShowToolbar" value="false" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Global Libraries" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="pt.isec.pa.apoio_poe.ui.gui" />
+      <recent name="model.fsm" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/pt/isec/pa/apoio_poe/ui/gui" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="pt.isec.pa.apoio_poe.ui.gui" />
+      <recent name="pt.isec.pa.apoio_poe.ui" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="pt.isec.pa.apoio_poe.model.command" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="RubenSantos_2019116244" />
+      <option name="VM_PARAMETERS" value="--module-path /Library/Java/JavaVirtualMachines/javafx-sdk-18.0.1/lib --add-modules javafx.controls" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GroovyScriptRunConfiguration" factoryName="Groovy">
+      <setting name="path" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workDir" value="file://$PROJECT_DIR$" />
+      <setting name="debug" value="false" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="9a069282-6a9b-4bdd-8949-01f74538a011" name="Changes" comment="" />
+      <created>1649771024274</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1649771024274</updated>
+      <workItem from="1649771025412" duration="859000" />
+      <workItem from="1649775090212" duration="6464000" />
+      <workItem from="1649805223442" duration="1574000" />
+      <workItem from="1649878853141" duration="1972000" />
+      <workItem from="1649928161455" duration="14062000" />
+      <workItem from="1650015937983" duration="20779000" />
+      <workItem from="1650278200208" duration="16372000" />
+      <workItem from="1650381276376" duration="16602000" />
+      <workItem from="1650563376560" duration="1128000" />
+      <workItem from="1650574367037" duration="4346000" />
+      <workItem from="1650648795653" duration="5011000" />
+      <workItem from="1650708104845" duration="26341000" />
+      <workItem from="1650752636549" duration="207000" />
+      <workItem from="1650758312091" duration="69016000" />
+      <workItem from="1651084842533" duration="17512000" />
+      <workItem from="1651232058919" duration="37094000" />
+      <workItem from="1651399455434" duration="15081000" />
+      <workItem from="1652293726056" duration="370000" />
+      <workItem from="1652294694975" duration="1429000" />
+      <workItem from="1652799504541" duration="16785000" />
+      <workItem from="1652871693503" duration="12827000" />
+      <workItem from="1652889577726" duration="531000" />
+      <workItem from="1654189595511" duration="3572000" />
+      <workItem from="1654369717287" duration="29449000" />
+      <workItem from="1654505504114" duration="30246000" />
+      <workItem from="1654537790449" duration="17942000" />
+      <workItem from="1654610528022" duration="33401000" />
+      <workItem from="1654697065982" duration="28380000" />
+      <workItem from="1654729637589" duration="27157000" />
+      <workItem from="1654851135164" duration="3241000" />
+      <workItem from="1655315418365" duration="3342000" />
+      <workItem from="1655578212570" duration="1539000" />
+      <workItem from="1655665235971" duration="2396000" />
+      <workItem from="1683562776224" duration="892000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
